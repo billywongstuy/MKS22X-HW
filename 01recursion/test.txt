@@ -1,0 +1,12172 @@
+Guess: 1.0
+Number: 100.0
+% Error: 0.99
+false
+Guess: 50.5
+Number: 100.0
+% Error: -24.5025
+true
+Guess: 26.24009900990099
+Number: 100.0
+% Error: -5.88542796049407
+true
+Guess: 15.025530119986813
+Number: 100.0
+% Error: -1.2576655538663093
+true
+Guess: 10.840434673026925
+Number: 100.0
+% Error: -0.1751502390016438
+true
+Guess: 10.032578510960604
+Number: 100.0
+% Error: -0.0065263157858849756
+true
+Guess: 10.000052895642693
+Number: 100.0
+% Error: -1.057915651799135E-5
+true
+Guess: 10.000000000139897
+Number: 100.0
+% Error: -2.7979467631666923E-11
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
+Guess: 10.0
+Number: 100.0
+% Error: 0.0
+true
