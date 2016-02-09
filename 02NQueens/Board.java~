@@ -1,0 +1,39 @@
+public class Board {
+    int[][]board;
+    
+    public Board(int n) {
+	board = new int[n][n];
+        clear();
+    }
+
+
+    void clear() {
+	for (int i = 0; i < board.length; i++) {
+	    for (int j = 0; j < board[i].length; j++) {
+		board[i][j] = 0;
+	    }
+	}
+    }
+
+    void addQueen(int r, int c) {
+	board[r][c] = 1;
+	for (int i = c+1; i < board[r].length; i++) {
+	    board[r][i]--;
+	}
+	int currentRow = r+1;
+	for (int j = c+1; currentRow < board.length && j < board[r].length; j++) {
+	    board[currentRow][j]--;
+	    currentRow++;
+	}
+	currentRow = r-1;
+	for (int k = c+1; currentRow >= 0 && k < board[r].length; k++) {
+	    board[currentRow][k]--;
+	    currentRow--;
+	}
+	
+    }
+    
+    public static void main(String[]args) {
+
+    }
+}
