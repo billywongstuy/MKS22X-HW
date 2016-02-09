@@ -12,6 +12,9 @@ public class Recursion implements hw01{
 
 
     public double convergeOnRoot(double n, double guess) {
+	if (n == 0) {
+	    return 0;
+	}
 	if (Math.abs((n-Math.pow(guess,2.0)))/n < 0.00001) {
 	    return guess;
 	}

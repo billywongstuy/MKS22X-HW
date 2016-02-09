@@ -1,5 +1,5 @@
 public class Test{
-    public static boolean close(double a,double b){
+      public static boolean close(double a,double b){
         if(a == 0.0 && b == 0.0){
             return true;
         }
@@ -21,7 +21,6 @@ public class Test{
                     System.out.println("PASS! sqrt("+testvalues[i]);
                     score++;
                 }else{
-		    System.out.println("h");
                     System.out.println("-----XXX Failed sqrt("+testvalues[i]);
                 }
             }catch(IllegalArgumentException e){
