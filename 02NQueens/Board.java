@@ -58,6 +58,20 @@ public class Board {
 	    System.out.println("\n");
 	}
     }
+
+    boolean solve() {
+	return false;
+    }
+
+    boolean isColumnFull(int c) {
+	for (int i = 0; i < board.length; i++) {
+	    if (board[i][c] == 0) {
+		return false;
+	    }
+	}
+	return true;
+    }
+
     
     public static void main(String[]args) {
 	Board b = new Board(4);
