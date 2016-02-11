@@ -250,7 +250,7 @@ public class QueenBoard{
     }
     
     public static void main(String[]args){
-	QueenBoard b = new QueenBoard(16);
+	QueenBoard b = new QueenBoard(12);
         /*System.out.println(b);
 	b.addQueen(3,0);
 	b.addQueen(0,1);
