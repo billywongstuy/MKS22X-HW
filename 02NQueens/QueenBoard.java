@@ -25,38 +25,119 @@ public class QueenBoard{
      *Helper method fr solve. 
      */
     private boolean solveH(int col){
-	System.out.println("col: " + col);
+	
+	//System.out.println("col: " + col);
+
+        
+	
         int row = 0;
 	boolean queenAdded = false;
 	while (row < board.length && !queenAdded) {
-	    System.out.println("Row: " + row);
 	    if (addQueen(row,col)) {
 		queenAdded = true;
+		//System.out.println("Queen added to row " + row + ", col " + col);
 	    }
 	    row++;
 	}
-	if (col == board[0].length-1 && allZeroes()) {
+
+	row--; //remove the extra gain
+
+	//System.out.println("Queen added: " + queenAdded);
+	//System.out.println(board.length-1);
+	//System.out.println("Row: " + (row));
+	//System.out.println(row == board.length-1 && !queenAdded);    
+
+
+	//printBoard();
+	//printSolution();
+
+	
+	//System.out.println("Filled? " + allRowsFull());
+	    
+	
+	//ending statements when it reaches the end
+	if (firstColNoRoom() && col == board[0].length-1) {
 	    return false;
 	}
-	if (col == board[0].length-1 && !allZeroes()) {
+	if (allRowsFull() &&  col == board[0].length-1) {
 	    return true;
 	}
 
-	if (col == 0 && row == board.length-1) {
+	
+	//if you can't fit it at all (stops when last row in first column cannot fit anything)
+	if (col == 0 && row == board.length-1 && !queenAdded) {
+	    System.out.println("No fit");
 	    return false;
 	}
+
+	//if it's in the middle and you can't fit 
 	if (row == board.length-1 && !queenAdded) {
+	    //System.out.println("Backtracking...");
+	    //System.out.println("##############################################");
 	    //remove the queen from the previous row and start adding queens in the next row
+	    int prevRowQueen = previousQueenRow(col);
+	    //System.out.println("Prev Row: " + previousQueenRow(col));
+	    //System.out.println("Prev Col: " + (col-1));
+	    //System.out.println(board[1][2]);
+
+
+	    //System.out.println("Value at position: " + board[row][col] + "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+	    
+	    //printBoard(); System.out.println("\n");
+	    removeQueen(previousQueenRow(col),col-1);
+	    if (col <= board[0].length - 2){
+		//System.out.println(col);
+		for (int i = 0; i < board.length; i++) {
+		    if (board[i][col] < -1*board.length) {
+			board[i][col] = 0;
+		    }
+		}
+	    }
+	    //if you remove something change the -absurbs 2 col to the right to 0
+	    
+	    board[prevRowQueen][col-1] = -1*board.length-board.length;
+	    //resetCol(col);
+	    //System.out.println("############################################");
+	    //printBoard();
+
+	    //System.out.println("*************************************************");
+
+	    
 	    return solveH(col-1);
 	}
+
+	//System.out.println("her");
+
+	//System.out.println("****************************************");
+	
 	return true && solveH(col+1);
     }
 
 
+    private int previousQueenRow(int col) {
+	if (col == 0) {
+	    return 0;
+	}
+	for (int i = 0; i < board.length; i++) {
+	    if (board[i][col-1] == 1) {
+		return i;
+	    }
+	}
+	return 0;
+    }
+
+
+    public void resetCol(int col) {
+	for (int i = 0; i < board.length; i++) {
+	    board[i][col] = 0;
+	}
+    }
+
     public boolean allZeroes() {
 	for (int i = 0; i < board.length; i++) {
 	    for (int j = 0; j < board[i].length; j++) {
-		if (board[i][j] != 0) {
+		if (board[i][j] > 0) {
 		    return false;
 		}
 	    }
@@ -64,6 +145,28 @@ public class QueenBoard{
 	return true;
     }
 
+    public boolean firstColNoRoom() {
+	if (board[board.length-1][0] < 0) {
+	    return true;
+	}
+	return false;
+    }
+
+    public boolean allRowsFull() {
+	boolean CompletelyFull = true;
+	for (int i = 0; i < board.length; i++) {
+	    boolean RowFull = false;
+	    for (int j = 0; j < board[i].length; j++) {
+		if (board[i][j] > 0) {
+		    RowFull = true;
+		}
+	    }
+	    CompletelyFull = RowFull && CompletelyFull;
+	}
+	return CompletelyFull;
+    }
+
+    
     public void printSolution(){
 	for (int i = 0; i < board.length; i++) {
 	    for (int j = 0; j < board[i].length; j++) {
@@ -86,7 +189,10 @@ public class QueenBoard{
     public void printBoard() {
 	for (int i = 0; i < board.length; i++) {
 	    for (int j = 0; j < board[i].length; j++) {
-		System.out.print(board[i][j] + " | ");
+		if (board[i][j] == 1) {
+		    System.out.print(" @  | ");
+		}
+		else {System.out.print((board[i][j] + "   ").substring(0,3) + " | ");}
 	    }
 	    System.out.println("\n");
 	}
@@ -144,14 +250,14 @@ public class QueenBoard{
     }
     
     public static void main(String[]args){
-	QueenBoard b = new QueenBoard(6);
+	QueenBoard b = new QueenBoard(16);
         /*System.out.println(b);
 	b.addQueen(3,0);
 	b.addQueen(0,1);
         System.out.println(b);
 	b.removeQueen(3,0);
         System.out.println(b);*/
-	b.solve();
+	System.out.println(b.solve());
 	b.printSolution();
     }
     
