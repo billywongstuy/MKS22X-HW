@@ -1,7 +1,8 @@
 public class KnightBoard {
     int[][]board;
     int [][] moves = {{-2,1},{-2,-1},{-1,-2},{1,-2},{2,-1},{2,1},{1,2},{-1,2}};
-
+    int lastMoveIndex = 0;
+    
     
     public KnightBoard(int size) {
 	//Make 2 extra outsides for out of bounds
@@ -29,7 +30,7 @@ public class KnightBoard {
 	return solveH(2,2,1,0);
     }
 
-    private boolean solveH(int row, int col, int num, int moveSlot) {
+    private boolean solveH(int row, int col, int num, int start) {
 
 	//if n^2 == num return true;
 
@@ -39,11 +40,38 @@ public class KnightBoard {
 	//return solveH(row and col with add from movement option 0,num+1,
 
 	//else remove the number
-	
-	if (canMoveTo(row,col)) {
-	    board[row][col] = num;
-	    solveH(row+(moves[moveSlot])[0],col+(moves[moveSlot])[1],num+1,0);
+
+	if (num == board.length*board[0].length) {
+	    return true;
 	}
+
+
+        //figure out curretn error
+	//
+
+	//condition for when the 8th direction of 1 is tried and not working
+	
+	for (int i = start; i < moves.length; i++) {
+	    System.out.println((row-2)+","+(col-2));
+	    board[row][col] = num;
+	    printSolution();
+	    System.out.println("*************************************************");
+	    System.out.println("Ind " + lastMoveIndex);
+	    if (canMoveTo(row+moves[i][0],col+moves[i][1])) {
+		lastMoveIndex = i;
+		System.out.println("Added move " + (num+1) + " in direction of " + i);
+		return solveH(row+moves[i][0],col+moves[i][1],num+1,0);
+	    }
+	    board[row][col] = 0;
+	    System.out.println("L:" + lastMoveIndex);
+	    System.out.println(board[row-(moves[lastMoveIndex][0])][col-(moves[lastMoveIndex][1])]);
+	    if (i == 7) {
+		System.out.println((num+1) + " was not able to fit. Removing "+ (num));
+		return solveH(row-(moves[lastMoveIndex][0]),col-(moves[lastMoveIndex][1]),num-1,lastMoveIndex+1);
+	    }
+	}
+
+
 	
 	return false;
     }
@@ -77,9 +105,10 @@ public class KnightBoard {
     }
 
     public static void main(String[]args) {
-	KnightBoard b = new KnightBoard(4);
-	b.printBoard();
+	KnightBoard b = new KnightBoard(5);
+	//b.printBoard();
 	System.out.println("\n");
+	b.solve();
 	b.printSolution();
     }
 
