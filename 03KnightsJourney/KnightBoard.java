@@ -30,10 +30,19 @@ public class KnightBoard {
     }
 
     private boolean solveH(int row, int col, int num, int moveSlot) {
+
+	//if n^2 == num return true;
+
+	//for every possible movement option
+	
+	//if able to place at the current position
+	//return solveH(row and col with add from movement option 0,num+1,
+
+	//else remove the number
 	
 	if (canMoveTo(row,col)) {
 	    board[row][col] = num;
-	    solveH(row+(moves[moveSlot])[0],col+(moves[moveSlot])[1],2,0);
+	    solveH(row+(moves[moveSlot])[0],col+(moves[moveSlot])[1],num+1,0);
 	}
 	
 	return false;
