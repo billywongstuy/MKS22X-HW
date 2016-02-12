@@ -52,9 +52,10 @@ public class KnightBoard {
 	//condition for when the 8th direction of 1 is tried and not working
 	
 	for (int i = start; i < moves.length; i++) {
-	    System.out.println((row-2)+","+(col-2));
+	    System.out.println((row)+","+(col));
+	    System.out.println(board[row][col]);
 	    board[row][col] = num;
-	    printSolution();
+	    printBoard();
 	    System.out.println("*************************************************");
 	    System.out.println("Ind " + lastMoveIndex);
 	    if (canMoveTo(row+moves[i][0],col+moves[i][1])) {
@@ -66,7 +67,8 @@ public class KnightBoard {
 	    System.out.println("L:" + lastMoveIndex);
 	    System.out.println(board[row-(moves[lastMoveIndex][0])][col-(moves[lastMoveIndex][1])]);
 	    if (i == 7) {
-		System.out.println((num+1) + " was not able to fit. Removing "+ (num));
+		System.out.println((num+1) + " was not able to fit. Removing "+ (num) + "at " + row+","+col);
+		System.out.println("Starting on " + (board[row-(moves[lastMoveIndex][0])][col-(moves[lastMoveIndex][1])]) + "at " + (row-(moves[lastMoveIndex][0]))+","+(col-(moves[lastMoveIndex][1])) );
 		return solveH(row-(moves[lastMoveIndex][0]),col-(moves[lastMoveIndex][1]),num-1,lastMoveIndex+1);
 	    }
 	}
@@ -78,6 +80,7 @@ public class KnightBoard {
 
 
     private boolean canMoveTo(int row, int col) {
+	System.out.println("Can I move to " + (row)+","+(col));
 	if (board[row][col] != 0) {
 	    return false;
 	}
