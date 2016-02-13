@@ -1,9 +1,7 @@
 public class KnightBoard {
     int[][]board;
     int [][] moves = {{-2,1},{-2,-1},{-1,-2},{1,-2},{2,-1},{2,1},{1,2},{-1,2}};
-    int [] lastNumberIndex;
-    int lastMoveIndex = 0;
-    int previousMove = 0;
+    boolean closed = false;
     
     
     public KnightBoard(int cols, int rows) {
@@ -39,8 +37,11 @@ public class KnightBoard {
 
     private boolean solveH(int row, int col, int num) {
 
+	
 	if (num > (board.length-4)*(board[0].length-4)) {
-	    return true;
+	    if (!closed) {
+		return true;
+	    }
 	}
 
 
@@ -52,37 +53,43 @@ public class KnightBoard {
 	if (canMoveTo(row,col)) {
 	    board[row][col] = num;
 
+	    if (num == (board.length-4)*(board[0].length-4)) {
+		if (closed && !canLoopAround(row,col)) {
+		    board[row][col] = 0;
+		    return false;
+		}
+	    }
 	    
 	    /*if (solveH(row-2,col+1,num+1)) {
-		return true;
-	    }
-	    else if (solveH(row+1,col+2,num+1)) {
-		return true;
-	    }
-	    else if (solveH(row-1,col-2,num+1)) {
-		return true;
-	    }
-	    else if (solveH(row+1,col-2,num+1)) {
-		return true;
-	    }
-	    else if (solveH(row+2,col-1,num+1)) {
-		return true;
-	    }
-	    else if (solveH(row+2,col+1,num+1)) {
-		return true;
-	    }
-	    else if (solveH(row-2,col-1,num+1)) {
-		return true;
-	    }
-	    else if (solveH(row-1,col+2,num+1)) {
-		return true;
-	    }*/	
+	      return true;
+	      }
+	      else if (solveH(row+1,col+2,num+1)) {
+	      return true;
+	      }
+	      else if (solveH(row-1,col-2,num+1)) {
+	      return true;
+	      }
+	      else if (solveH(row+1,col-2,num+1)) {
+	      return true;
+	      }
+	      else if (solveH(row+2,col-1,num+1)) {
+	      return true;
+	      }
+	      else if (solveH(row+2,col+1,num+1)) {
+	      return true;
+	      }
+	      else if (solveH(row-2,col-1,num+1)) {
+	      return true;
+	      }
+	      else if (solveH(row-1,col+2,num+1)) {
+	      return true;
+	      }*/	
 
-		for (int i = 0; i < moves.length; i++) {
+	    for (int i = 0; i < moves.length; i++) {
 		if (solveH(row+moves[i][0],col+moves[i][1],num+1)) {
 		    return true;
 		}
-		}
+	    }
 
 
 	    //if you make the function never return true, using below provides all solutions
@@ -99,6 +106,17 @@ public class KnightBoard {
 	return false;
     }
 
+
+    private boolean canLoopAround(int row, int col) {
+	System.out.println((row+2)+","+(col-2));
+	System.out.println(board[row][col]);
+	for (int i = 0; i < moves.length; i++) {
+	    if (board[row+moves[i][0]][col+moves[i][1]] == 1) {
+		return true;
+	    }
+	}
+	return false;
+    }
 
     private boolean canMoveTo(int row, int col) {
 	//System.out.println("Can I move to " + (row)+","+(col));
@@ -131,56 +149,57 @@ public class KnightBoard {
     public static void main(String[]args) {
 	int r = 5;
 	int c = 5;
-	if (args.length == 1) {
+	if ((args.length == 1 && !args[0].equals("closed")) || (args.length == 2 && args[1].equals("closed"))) {
 	    r = Integer.parseInt(args[0]);
 	    c = r;
 	}
-	if (args.length >= 2) {
+	else if (args.length >= 2) {
 	    c = Integer.parseInt(args[0]);
 	    r = Integer.parseInt(args[1]);
 	}
 	KnightBoard b = new KnightBoard(c,r);
-	//b.printBoard();
-	System.out.println("\n");
+	if (args.length > 0 && args[args.length-1].equals("closed")) {
+	    b.closed = true;
+	    System.out.println(b.closed);
+        }
 	b.solve();
-	b.printBoard();
 	b.printSolution();
     }
 
 
 
-    	/*	OLD CODE
+    /*	OLD CODE
 	for (int i = start; i < moves.length; i++) {
-	    System.out.println((row)+","+(col));
-	    System.out.println(board[row][col]);
-	    board[row][col] = num;
-	    printBoard();
-	    //System.out.println("*************************************************");
-	    //System.out.println("Ind " + lastMoveIndex);
-	    if (canMoveTo(row+moves[i][0],col+moves[i][1])) {
-		previousMove = lastMoveIndex;
-		lastMoveIndex = i;
-		//System.out.println("Added move " + (num+1) + " in direction of " + i);
-		return solveH(row+moves[i][0],col+moves[i][1],num+1,0);
-	    }
-	    board[row][col] = 0;
+	System.out.println((row)+","+(col));
+	System.out.println(board[row][col]);
+	board[row][col] = num;
+	printBoard();
+	//System.out.println("*************************************************");
+	//System.out.println("Ind " + lastMoveIndex);
+	if (canMoveTo(row+moves[i][0],col+moves[i][1])) {
+	previousMove = lastMoveIndex;
+	lastMoveIndex = i;
+	//System.out.println("Added move " + (num+1) + " in direction of " + i);
+	return solveH(row+moves[i][0],col+moves[i][1],num+1,0);
+	}
+	board[row][col] = 0;
 
-	    //System.out.println("L:" + lastMoveIndex);
-	    //System.out.println(board[row-(moves[lastMoveIndex][0])][col-(moves[lastMoveIndex][1])]);
-	    //if (i == 7) {
-	    //	System.out.println((num+1) + " was not able to fit. Removing "+ (num) + "at " + row+","+col);
-	    //	System.out.println("Starting on " + (board[row-(moves[lastMoveIndex][0])][col-(moves[lastMoveIndex][1])]) + "at " + (row-(moves[lastMoveIndex][0]))+","+(col-(moves[lastMoveIndex][1])) );
-	    //	return solveH(row-(moves[lastMoveIndex][0]),col-(moves[lastMoveIndex][1]),num-1,lastMoveIndex+1);
-	    //	    }
+	//System.out.println("L:" + lastMoveIndex);
+	//System.out.println(board[row-(moves[lastMoveIndex][0])][col-(moves[lastMoveIndex][1])]);
+	//if (i == 7) {
+	//	System.out.println((num+1) + " was not able to fit. Removing "+ (num) + "at " + row+","+col);
+	//	System.out.println("Starting on " + (board[row-(moves[lastMoveIndex][0])][col-(moves[lastMoveIndex][1])]) + "at " + (row-(moves[lastMoveIndex][0]))+","+(col-(moves[lastMoveIndex][1])) );
+	//	return solveH(row-(moves[lastMoveIndex][0]),col-(moves[lastMoveIndex][1]),num-1,lastMoveIndex+1);
+	//	    }
 	}
 
 	System.out.println((num+1) + " was not able to fit. Removing "+ (num) + "at " + row+","+col);
 	System.out.println("Starting on " + (board[row-(moves[lastMoveIndex][0])][col-(moves[lastMoveIndex][1])]) + "at " + (row-(moves[lastMoveIndex][0]))+","+(col-(moves[lastMoveIndex][1])) );
 	
 	if (num > 1) {
-	    return solveH(row-(moves[lastMoveIndex][0]),col-(moves[lastMoveIndex][1]),num-1,lastMoveIndex+1);
+	return solveH(row-(moves[lastMoveIndex][0]),col-(moves[lastMoveIndex][1]),num-1,lastMoveIndex+1);
 	}
-*/	
+    */	
 
 
 
