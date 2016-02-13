@@ -2,7 +2,7 @@ public class KnightBoard {
     int[][]board;
     int [][] moves = {{-2,1},{-2,-1},{-1,-2},{1,-2},{2,-1},{2,1},{1,2},{-1,2}};
     boolean closed = false;
-    
+    boolean DEBUG = false;
     
     public KnightBoard(int cols, int rows) {
 	//Make 2 extra outsides for out of bounds
@@ -143,6 +143,13 @@ public class KnightBoard {
 		System.out.print(board[i][j] + " ");
 	    }
 	    System.out.println("\n");
+	}
+    }
+
+
+    private void debug(String s) {
+	if (DEBUG == true) {
+	    System.out.println(s);
 	}
     }
 
