@@ -39,9 +39,7 @@ public class KnightBoard {
 
 	
 	if (num > (board.length-4)*(board[0].length-4)) {
-	    if (!closed) {
-		return true;
-	    }
+	    return true;
 	}
 
 
@@ -52,9 +50,14 @@ public class KnightBoard {
 	
 	if (canMoveTo(row,col)) {
 	    board[row][col] = num;
-
+	    
 	    if (num == (board.length-4)*(board[0].length-4)) {
+
+		//System.out.println((row-2)+","+(col-2));
+		
 		if (closed && !canLoopAround(row,col)) {
+		    
+		    //printSolution();
 		    board[row][col] = 0;
 		    return false;
 		}
@@ -108,10 +111,11 @@ public class KnightBoard {
 
 
     private boolean canLoopAround(int row, int col) {
-	System.out.println((row+2)+","+(col-2));
-	System.out.println(board[row][col]);
+	//System.out.println((row+2)+","+(col-2));
+	//System.out.println(board[row][col]);
 	for (int i = 0; i < moves.length; i++) {
 	    if (board[row+moves[i][0]][col+moves[i][1]] == 1) {
+		//System.out.println("hey");
 		return true;
 	    }
 	}
@@ -167,7 +171,7 @@ public class KnightBoard {
 	KnightBoard b = new KnightBoard(c,r);
 	if (args.length > 0 && args[args.length-1].equals("closed")) {
 	    b.closed = true;
-	    System.out.println(b.closed);
+	    //System.out.println(b.closed);
         }
 	b.solve();
 	b.printSolution();
