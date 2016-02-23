@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Bronze {
 
-    public static int makeLake() {
+    public static String makeLake() {
 	int[][]field;
 	try {
 	    Scanner s = new Scanner(new File("makelake.in"));
@@ -47,13 +47,13 @@ public class Bronze {
 	    //System.out.println(Arrays.deepToString(field));
 
 	    int sum = arraySum(field);
-	    return sum*72*72;
+	    return sum*72*72 +",7,Wong,Billy";
 	}
 	catch (FileNotFoundException e) {
 	    System.out.println(e);
 	}
 	
-	return 0;
+	return "7,Wong,Billy";
     }
 
 
