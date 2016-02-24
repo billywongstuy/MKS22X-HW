@@ -19,6 +19,39 @@ public class Maze{
       3. When the file is not found, print an error and exit the program.
     */
     public Maze(String filename, boolean ani){
+	try {
+	    animate = ani;
+	    int rows = 0;
+	    int cols = 0;
+	    String mazey = "";
+	    Scanner s = new Scanner(new File(filename));
+	    while (s.hasNextLine()) {
+	        String line = s.nextLine();
+		//System.out.println(line);
+		mazey += line;
+		rows++;
+		cols = line.length();
+	    }
+	    maze = new char[rows][cols];
+	    int currentRow = 0;
+	    int currentCol = 0;
+	    for (int i = 0; i < mazey.length(); i++) {
+		//System.out.println(i +  " " + i%cols);
+	    	if (i% cols == 0 && i != 0) {
+	    	    currentRow++;
+	    	    currentCol = 0;
+		}
+		//System.out.println(currentCol);
+	    	maze[currentRow][currentCol] = mazey.charAt(i);
+	    	currentCol++;
+		//System.out.println(Arrays.deepToString(maze));
+	    }
+	    //System.out.println(maze);
+	}
+	catch (FileNotFoundException e) {
+	    
+	}
+
         //COMPLETE CONSTRUCTOR
     }
 
@@ -26,7 +59,7 @@ public class Maze{
     /*Main Solve Function
 
       Things to note:
-       When no S is contained in maze, print an error and return false.
+      When no S is contained in maze, print an error and return false.
     */
     public boolean solve(){
         if(startx < 0){
@@ -45,11 +78,11 @@ public class Maze{
       The S is replaced with '@' but the 'E' is not.
 
       Postcondition:
-        Returns true when the maze is solved,
-        Returns false when the maze has no solution.
+      Returns true when the maze is solved,
+      Returns false when the maze has no solution.
 
-        All visited spots that were not part of the solution are changed to '.'
-        All visited spots that are part of the solution are changed to '@'
+      All visited spots that were not part of the solution are changed to '.'
+      All visited spots that are part of the solution are changed to '@'
 
     */
     private boolean solve(int x, int y){

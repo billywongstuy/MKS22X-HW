@@ -6,6 +6,7 @@ public class Maze{
     private char[][]maze;
     private int startx,starty;
     private boolean animate;
+    private boolean DEBUG = true;
 
     /*Constructor loads a maze text file.
       1. The file contains a rectangular ascii maze, made with the following 4 characters:
@@ -27,24 +28,29 @@ public class Maze{
 	    Scanner s = new Scanner(new File(filename));
 	    while (s.hasNextLine()) {
 	        String line = s.nextLine();
-		System.out.println(line);
+		//System.out.println(line);
 		mazey += line;
 		rows++;
 		cols = line.length();
 	    }
-	    System.out.println(mazey);
 	    maze = new char[rows][cols];
 	    int currentRow = 0;
 	    int currentCol = 0;
-	    //for (int i = 0; i < mazey.length(); i++) {
-	    //	if (i+1% cols == 0 && i != 0) {
-	    //	    currentRow++;
-	    //	    currentCol = 0;
-		    //	}
-	    //	maze[currentRow][currentCol] = mazey.charAt(i);
-	    //	currentCol++;
-	    //  }
-	    //System.out.println(mazey);
+	    for (int i = 0; i < mazey.length(); i++) {
+		//System.out.println(i +  " " + i%cols);
+	    	if (i% cols == 0 && i != 0) {
+	    	    currentRow++;
+	    	    currentCol = 0;
+		}
+		//System.out.println(currentCol);
+	    	maze[currentRow][currentCol] = mazey.charAt(i);
+		if (mazey.charAt(i) == 'S') {
+		    startx = currentRow;
+		    starty = currentCol;
+		}
+	    	currentCol++;
+	    }
+	    //System.out.println(Arrays.deepToString(maze));
 	}
 	catch (FileNotFoundException e) {
 	    
@@ -86,13 +92,52 @@ public class Maze{
     private boolean solve(int x, int y){
         if(animate){
             System.out.println(this);
-            wait(20);
+            wait(50);  //orig is 20
         }
+
+	debug("hello");
+	
+	if (maze[x][y] == 'E') {
+	    debug("ahsh");
+	    return true;
+	}
+	if (maze[x][y] != ' ') {
+	    debug("noo");
+	    return false;
+	}
+
+	debug("begin");
+	maze[x][y] = '@';
+	//maze[x][y] = '.';
+	if (solve(x+1,y)) {
+	    debug("a");
+	    return true;
+	}
+	if (solve(x-1,y)) {
+	    debug("b");
+	    return true;
+	}
+        if (solve(x,y+1)) {
+	    debug("c");
+	    return true;
+	}
+	if (solve(x,y-1)) {
+	    debug("d");
+	    return true;
+	}
+        debug("end");
+	maze[x][y] = '.';
 
         //COMPLETE SOLVE
         return false; //so it compiles
     }
 
+
+    private void debug(String s) {
+	if (DEBUG) {
+	    System.out.println(s);
+	}
+    }
 
     //FREE STUFF!!! *you should be aware of this*
 
@@ -111,7 +156,8 @@ public class Maze{
             if(i % maxx == 0 && i != 0){
                 ans += "\n";
             }
-            char c =  maze[i % maxx][i / maxx];
+	    
+            char c =  maze[i %  maxx][i / maxx];
             if(c == '#'){
                 ans += color(38,47)+c;
             }else{
