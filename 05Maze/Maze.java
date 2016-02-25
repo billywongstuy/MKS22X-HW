@@ -6,7 +6,7 @@ public class Maze{
     private char[][]maze;
     private int startx,starty;
     private boolean animate;
-    private boolean DEBUG = true;
+    private boolean DEBUG = false;
 
     /*Constructor loads a maze text file.
       1. The file contains a rectangular ascii maze, made with the following 4 characters:
