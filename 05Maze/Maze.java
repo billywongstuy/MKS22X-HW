@@ -92,7 +92,7 @@ public class Maze{
     private boolean solve(int x, int y){
         if(animate){
             System.out.println(this);
-            wait(50);  //orig is 20
+            wait(20);  //orig is 20
         }
 
 	debug("hello");
