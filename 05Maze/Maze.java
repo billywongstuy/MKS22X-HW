@@ -33,7 +33,8 @@ public class Maze{
 		rows++;
 		cols = line.length();
 	    }
-	    maze = new char[rows][cols];
+	    //switched
+	    maze = new char[cols][rows];
 	    int currentRow = 0;
 	    int currentCol = 0;
 	    for (int i = 0; i < mazey.length(); i++) {
@@ -42,8 +43,8 @@ public class Maze{
 	    	    currentRow++;
 	    	    currentCol = 0;
 		}
-		//System.out.println(currentCol);
-	    	maze[currentRow][currentCol] = mazey.charAt(i);
+		//These are switched to preserve maze format
+	    	maze[currentCol][currentRow] = mazey.charAt(i);
 		if (mazey.charAt(i) == 'S') {
 		    startx = currentRow;
 		    starty = currentCol;

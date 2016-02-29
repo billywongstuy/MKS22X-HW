@@ -6,6 +6,7 @@ public class Maze{
     private char[][]maze;
     private int startx,starty;
     private boolean animate;
+    private boolean DEBUG = false;
 
     /*Constructor loads a maze text file.
       1. The file contains a rectangular ascii maze, made with the following 4 characters:
@@ -41,12 +42,15 @@ public class Maze{
 	    	    currentRow++;
 	    	    currentCol = 0;
 		}
-		//System.out.println(currentCol);
-	    	maze[currentRow][currentCol] = mazey.charAt(i);
+		//These are switched to preserve maze format
+	    	maze[currentCol][currentRow] = mazey.charAt(i);
+		if (mazey.charAt(i) == 'S') {
+		    startx = currentRow;
+		    starty = currentCol;
+		}
 	    	currentCol++;
-		//System.out.println(Arrays.deepToString(maze));
 	    }
-	    //System.out.println(maze);
+	    //System.out.println(Arrays.deepToString(maze));
 	}
 	catch (FileNotFoundException e) {
 	    
@@ -88,13 +92,52 @@ public class Maze{
     private boolean solve(int x, int y){
         if(animate){
             System.out.println(this);
-            wait(20);
+            wait(20);  //orig is 20
         }
+
+	debug("hello");
+	
+	if (maze[x][y] == 'E') {
+	    debug("ahsh");
+	    return true;
+	}
+	if (maze[x][y] != ' ') {
+	    debug("noo");
+	    return false;
+	}
+
+	debug("begin");
+	maze[x][y] = '@';
+	//maze[x][y] = '.';
+	if (solve(x+1,y)) {
+	    debug("a");
+	    return true;
+	}
+	if (solve(x-1,y)) {
+	    debug("b");
+	    return true;
+	}
+        if (solve(x,y+1)) {
+	    debug("c");
+	    return true;
+	}
+	if (solve(x,y-1)) {
+	    debug("d");
+	    return true;
+	}
+        debug("end");
+	maze[x][y] = '.';
 
         //COMPLETE SOLVE
         return false; //so it compiles
     }
 
+
+    private void debug(String s) {
+	if (DEBUG) {
+	    System.out.println(s);
+	}
+    }
 
     //FREE STUFF!!! *you should be aware of this*
 
@@ -113,7 +156,8 @@ public class Maze{
             if(i % maxx == 0 && i != 0){
                 ans += "\n";
             }
-            char c =  maze[i % maxx][i / maxx];
+	    
+            char c =  maze[i %  maxx][i / maxx];
             if(c == '#'){
                 ans += color(38,47)+c;
             }else{
