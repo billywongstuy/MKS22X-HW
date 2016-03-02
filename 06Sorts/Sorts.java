@@ -48,8 +48,9 @@ public class Sorts {
 
 
     public static void mergeSort(int[]data) {
-	debug("start mergesort");
-	mSortHelper(data);
+	//printArray(data);
+	data = mSortHelper(data);
+	printArray(data);
     }
 
 
@@ -63,20 +64,13 @@ public class Sorts {
 	int start2 = end1;
 	int [] ary1 = Arrays.copyOfRange(data,0,end1);
 	int [] ary2 = Arrays.copyOfRange(data,start2,data.length);
-	debug("here " + Arrays.toString(ary1) + " " + Arrays.toString(ary2));
 
-	
-
-        
+	//debug("C: " + Arrays.toString(data));
 	
         int [] newer = merge(mSortHelper(ary1),mSortHelper(ary2));
-	debug("ALLO: " + Arrays.toString(newer));
 
-
-	//HOW DO I REASSIGN THE FINAL ARRAY TO THE ORIGINAL?
-	//data = newer;
+	debug("D: " + Arrays.toString(newer));
 	
-        
 	return newer;
 	
     }
@@ -156,10 +150,13 @@ public class Sorts {
     public static void main(String[]args) {
 	int[]testArray = new int[(int)(Math.random()*10+1)];
 	fillRandom(testArray);
+	System.out.print("Original:  ");
 	printArray(testArray);
 	int[]copy = Arrays.copyOf(testArray,testArray.length);
 	Arrays.sort(copy);
+	System.out.print("Sorted:    ");
 	printArray(copy);
+	System.out.print("Your Sort: ");
 	//insertionSort(testArray);
 	//selectionSort(testArray);
 	//bubbleSort(testArray);

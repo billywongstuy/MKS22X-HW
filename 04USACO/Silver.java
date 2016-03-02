@@ -41,7 +41,7 @@ public class Silver {
     }
 
 
-    public int solve() {
+    public String solve() {
 	for (int i = 0; i < steps; i++) {
 	    //ask every space if it is greater than 0 then add the number to all 
 	    //possible nearby
@@ -58,7 +58,7 @@ public class Silver {
 	    
 	}
 	//System.out.println(r2 + " " + c2);
-	return field[r2][c2];
+	return (field[r2][c2])+",7,Wong,Billy";
     }
 
     
