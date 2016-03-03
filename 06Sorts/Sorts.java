@@ -47,6 +47,7 @@ public class Sorts {
     }
 
 
+    
     public static void mergeSort(int[]data) {
 	//printArray(data);
 	data = mSortHelper(data);
@@ -74,6 +75,26 @@ public class Sorts {
 	return newer;
 	
     }
+    
+
+
+    /*public static void mergeSort(int [] data) {
+	int end1 = (int)(data.length/2);
+	int [] ary1 = Arrays.copyOfRange(data,0,end1);
+	int [] ary2 = Arrays.copyOfRange(data,end1,data.length);
+
+	if (ary1.length > 1) {
+	    mergeSort(ary1);
+	}
+	if (ary2.length > 1) {
+	    mergeSort(ary2);
+	}
+
+	data = merge(ary1,ary2);
+	
+	
+	//merge(mergeSort(ary1),mergeSort(ary2));
+    }*/
 
     public static int[] merge(int[]data1,int[]data2) {
 	int [] newer = new int[data1.length+data2.length];
@@ -104,6 +125,7 @@ public class Sorts {
 	debug("GYO: " +  Arrays.toString(newer));
 	return newer;
     }
+    
 
     public static void  printArray(int[]data) {
 	String print = "[";
