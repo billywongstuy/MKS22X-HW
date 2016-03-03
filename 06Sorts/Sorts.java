@@ -50,8 +50,11 @@ public class Sorts {
     
     public static void mergeSort(int[]data) {
 	//printArray(data);
-	data = mSortHelper(data);
-	printArray(data);
+	int [] newer = mSortHelper(data);
+	for (int i = 0; i < data.length; i++) {
+	    data[i] = newer[i];
+	}
+	//printArray(data);
     }
 
 
@@ -162,7 +165,7 @@ public class Sorts {
 
 
     public static void debug(String s) {
-	boolean DEBUG = true;
+	boolean DEBUG = false;
 	if (DEBUG) {
 	    System.out.println(s);
 	}
