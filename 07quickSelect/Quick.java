@@ -118,6 +118,9 @@ public class Quick {
     //what if part == 0? or data.length-1
     //then quicksort(left,part-1), quicksort(part+1,right)
 
+    public static void quickSort(int[]data) {
+	
+    }
 
     private static void debug(String s) {
 	boolean DEBUG = true;
@@ -136,6 +139,10 @@ public class Quick {
 	    }
 	    data[i] = sign * generator.nextInt(100);
 	}
+    }
+
+    public static String name() {
+	return ("7,Wong,Billy");
     }
 
 
