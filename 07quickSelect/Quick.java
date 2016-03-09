@@ -111,7 +111,7 @@ public class Quick {
 
     }
 
-
+    
     //quicksort
     //parition of left and right
     //if there's more than 1 element do the algorithm
@@ -119,6 +119,20 @@ public class Quick {
     //then quicksort(left,part-1), quicksort(part+1,right)
 
     public static void quickSort(int[]data) {
+	quickSort(data,0,data.length-1);
+    }
+
+    public static void quickSort(int[]data,int left,int right) {
+	System.out.println(Arrays.toString(data));
+	if (left == right) {
+	    int index = partition(data,left,right);
+	    if (index > 0) {
+		quickSort(data,left,index-1);
+	    }
+	    if (index < data.length-1) {
+		quickSort(data,index+1,right);
+	    }
+	}
 	
     }
 
@@ -153,7 +167,7 @@ public class Quick {
 		print += data[i];
 	    }
 	    else {
-		print += data[i] + ",";
+		print += data[i] + ", ";
 	    }
 	}
 	print += "]";
@@ -170,9 +184,17 @@ public class Quick {
 	int[]testArray = new int[(int)(Math.random()*10+1)];
 	fillRandom(testArray);
 	System.out.print("Orig: "); printArray(testArray);
+
+	int[]toSort = Arrays.copyOf(testArray,testArray.length);
+	
         Arrays.sort(testArray);
 	System.out.print("Sorted: "); printArray(testArray);
-	int k = (int)(Math.random()*testArray.length);
+
+
+	//----------------------------
+	//  FOR TESTING quickselect
+	//----------------------------
+	/*int k = (int)(Math.random()*testArray.length);
 	int value = quickselect(testArray,k);
 	boolean equal = false;
 	
@@ -186,7 +208,12 @@ public class Quick {
 	else if (testArray[k-1] == value) {
 	    equal = true;
 	}
-	System.out.println(equal);
+	System.out.println(equal);*/
+
+
+	
+	quickSort(toSort);
+	printArray(toSort);
 			   
     }
     
