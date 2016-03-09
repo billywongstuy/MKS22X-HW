@@ -112,6 +112,13 @@ public class Quick {
     }
 
 
+    //quicksort
+    //parition of left and right
+    //if there's more than 1 element do the algorithm
+    //what if part == 0? or data.length-1
+    //then quicksort(left,part-1), quicksort(part+1,right)
+
+
     private static void debug(String s) {
 	boolean DEBUG = true;
 	if (DEBUG) {
