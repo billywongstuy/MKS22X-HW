@@ -3,37 +3,28 @@ import java.util.*;
 
 public class Quick {
 
-    //ivate void swap(int [] data, int i, int j) {
-    //	int v = data[i];
-    //	data[i] = data[j];
-    //	data[j] = v;
-    //}
+    private static void swap(int[]data,int j, int k) {
+	int temp = data[j];
+	data[j] = data[k];
+	data[k] = temp;
+    }
     
     private static int partition(int[]data, int left, int right) {
 
-	//System.out.println(Arrays.toString(data));
-	debug("L R: " + left + " " + right);
-
-	int r1 = (int)(Math.random()*(right-left))+left;
-	int r2 = (int)(Math.random()*(right-left))+left;
-	int r3 = (int)(Math.random()*(right-left))+left;
-	int random = r1;
-
-	if ((data[r1] > data[r2] && data[r1] > data[r3]) || (data[r1] < data[r2] && data[r1] < data[r3])) {
-	    if (data[r3] > data[r2]) {
-		random = r3;
-	    }
-	    else {
-		random = r2;
-	    }
+	int origRight = right;
+        
+	//debug("L R: " + left + " " + right);
+        if (left == right) {
+	    return right;
 	}
 	
-	debug("Random: " + random);
+        int ind = (int)(Math.random()*(right-left))+left;
+	
+	//debug("Random: " + ind);
 
-	int value = data[random];
+	int value = data[ind];
 
-        data[random] = data[right];
-	data[right] = value;
+	swap(data,ind,right);
 
 	right--;
 
@@ -44,31 +35,33 @@ public class Quick {
 	//copy things to right if they are bigger than x
 	//put x to original spot later (or middle)
 
-	int t = 0;
-	while (left <= right) {
-	    if (data[left] >= value) {
-	        t = data[left];
-		data[left] = data[right];
-		data[right] = t;
-		right--;
-		//System.out.println(Arrays.toString(data));
+
+	while (left < right) {
+ 	    if (data[left] >= value) {
+		swap(data,left,right);
+ 		right--;
 	    }
-	    else if (data[left] < value) {
-		left++;
+ 	    else {
+ 		left++;
 	    }
-	}
+ 	}
+
+	//debug(left+"");
+	//debug(Arrays.toString(data));
+	//debug(value + "");
+
+	//int valueIndex = Arrays.asList(data).indexOf(value);
+	int valueIndex = origRight;
 	
-	int i;
-	
-	for (i = data.length-1; i > 0 && data[i-1] > value; i--) {
-	   data[i] = data[i-1];
+        if (data[left] < value) {
+	    swap(data,right+1,valueIndex);
+	    return right+1;
+	}
+	else {
+	    swap(data,left,valueIndex);
+	    return left;
 	}
 
-	data[right] = t;
-
-	debug(Arrays.toString(data));
-
-	return right;
     }
 
 
@@ -78,7 +71,10 @@ public class Quick {
 	//return the kth smallest value.
 	// when k = 0 return the smallest.
 	// 0 <= k < data.length
-	return quickselect(data,k,0,data.length-1);
+	if (k == 0) {
+	    k = 1;
+	}
+	return quickselect(data,k-1,0,data.length-1);
 	    //return 0;
     }
 
@@ -89,20 +85,30 @@ public class Quick {
 	//start by calling the helper as follows:
 	// quickselect(data,k,0,data.length-1)
 	
-	debug(left + " " + right);
-	if (left == right) {
-	    return data[left];
+	//debug(left + " " + right);
+
+
+	int ind = partition(data,left,right);
+
+	//debug("P: " + ind);
+
+	//debug("----------------------------------------");
+	
+	if (ind == k) {
+	    return data[ind];
 	}
 
-	int part = partition(data,left,right);
-	debug("P: " + part);
+	else if (ind > k) {
+	    return quickselect(data,k,left,ind);
+	}
 
-	debug("----------------------------------------");
+	//if ind < k
+	else {
+	    return quickselect(data,k,ind,right);
+	}
+	
 	
 
-	quickselect(data,k,left,part);
-	
-	return 0;
     }
 
 
@@ -113,12 +119,60 @@ public class Quick {
 	}
     }
 
+
+    public static void fillRandom(int[]data) {
+	Random generator = new Random();
+	for (int i = 0; i < data.length; i++) { 
+	    int sign = 1;
+	    if ((int)(Math.random()*2) == 0) {
+		sign = -1;
+	    }
+	    data[i] = sign * generator.nextInt(100);
+	}
+    }
+
+
+    public static void  printArray(int[]data) {
+	String print = "[";
+	for (int i = 0; i < data.length; i++) {
+	    if (i == data.length-1) {
+		print += data[i];
+	    }
+	    else {
+		print += data[i] + ",";
+	    }
+	}
+	print += "]";
+	System.out.println(print);
+    }
+
     public static void main(String[]args) {
 	//int[]d = {6,2,-23,99,7,4,8,56,-8,4,26,96,88,4,28,30,21,0};
-	int[]d={6,10,8,7,19,4};
-	System.out.println(partition(d,0,d.length-1));
-	System.out.println(Arrays.toString(d));
-	//System.out.println(quickselect(d,0));
+	//int[]d={6,10,8,7,19,4};
+	//System.out.println(partition(d,0,d.length-1));
+	//System.out.println(Arrays.toString(d));
+	//System.out.println(quickselect(d,5));
+
+	int[]testArray = new int[(int)(Math.random()*10+1)];
+	fillRandom(testArray);
+	System.out.print("Orig: "); printArray(testArray);
+        Arrays.sort(testArray);
+	System.out.print("Sorted: "); printArray(testArray);
+	int k = (int)(Math.random()*testArray.length);
+	int value = quickselect(testArray,k);
+	boolean equal = false;
+	
+	System.out.println("The " + k + "th smallest value is " + value);
+	if (testArray.length == 1) {
+	    equal = true;
+	}
+	else if (k == 0) {
+	    equal = (testArray[0] == value);
+	}
+	else if (testArray[k-1] == value) {
+	    equal = true;
+	}
+	System.out.println(equal);
 			   
     }
     
