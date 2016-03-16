@@ -41,14 +41,33 @@ public class MyLinkedList {
 	}
 	else {
 	    LNode current = start;
-	    for (int i = 0; i < index; i++) {
+	    for (int i = 0; i < index-1; i++) {
 		current = current.getNext();
 	    }
+	    LNode tmp = current.getNext();
+	    current.setNext(new LNode(value));
+	    current.getNext().setNext(tmp);
+	    size++;
+	}
+	return true;
+    }
+
+
+    public boolean oldAdd(int index, int value) {
+	if (index >= size) {
+	    add(value);
+	}
+	else {
+	    LNode current = start;
+	    for (int i = 0; i < index; i++) {
+		current = current.getNext();
+	    }	    
 	    add(get(size-1));
 	    for (int i = size-1; i > index; i--) {
 		set(i,get(i-1));
 	    }
 	    current.setValue(value);
+	    size++; 
 	}
 	return true;
     }
@@ -94,6 +113,22 @@ public class MyLinkedList {
 	}
 	LNode current = start;
 	int h;
+	for (h = 0; h < index-1; h++) {
+	    current = current.getNext();
+	}
+	int removed = get(index);
+	current.setNext(current.getNext().getNext());
+	size--;
+	return removed;
+    }
+
+
+       public int oldRemove(int index) {
+	if (index >= size) {
+	    throw new IndexOutOfBoundsException();
+	}
+	LNode current = start;
+	int h;
 	for (h = 0; h < index; h++) {
 	    current = current.getNext();
 	}
@@ -102,7 +137,7 @@ public class MyLinkedList {
 	    set(i,get(i+1));
 	    current = current.getNext();
 	}
-	current = null;
+	current = null;	
 	size--;
 	return removed;
     }
@@ -155,6 +190,7 @@ public class MyLinkedList {
 	System.out.println(l);
 	l.add(3,23);
 	System.out.println(l);
+	System.out.print("Remove the 2nd element: " );
 	System.out.println(l.remove(2));
 	System.out.println(l);
     }
