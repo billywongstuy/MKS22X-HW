@@ -3,8 +3,9 @@ public class MyLinkedList {
     private class LNode {
 	int data;
 	LNode next;	
-
+	
 	public LNode() {}
+	public LNode(int v) {data = v;}
 
 	public LNode getNext() {return next;}
 	public int getValue() {return data;}
