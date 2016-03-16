@@ -18,27 +18,24 @@ public class MyLinkedList {
 
     public MyLinkedList() {
 	size = 0;
-	start = new LNode();
     }
 
     public boolean add(int value) {
-	LNode current = start;
-	while (current.getNext() != null) {
-	    if (current.getNext().getNext() == null) {
-		current.getNext().setValue(value);
-	    }
-	    current = current.getNext();
-	}
 	if (size == 0) {
-	    start.setValue(value);
+	    start = new LNode(value);
 	}
-	
-	current.setNext(new LNode());
+	else {
+	    LNode current = start;
+	    while (current.getNext() != null) {
+		current = current.getNext();
+	    }
+	    current.setNext(new LNode(value));
+	}
 	size++;
 	return true;
     }
 
-     public boolean add(int index, int value) {
+    public boolean add(int index, int value) {
 	if (index >= size) {
 	    add(value);
 	}
