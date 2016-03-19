@@ -15,6 +15,7 @@ public class MyLinkedList {
 
     LNode start;
     int size;
+    LNode end;
 
     public MyLinkedList() {
 	size = 0;
@@ -23,13 +24,17 @@ public class MyLinkedList {
     public boolean add(int value) {
 	if (size == 0) {
 	    start = new LNode(value);
+	    end = start;
 	}
 	else {
-	    LNode current = start;
+	    /*LNode current = start;
 	    while (current.getNext() != null) {
 		current = current.getNext();
 	    }
 	    current.setNext(new LNode(value));
+	    */
+	    end.setNext(new LNode(value));
+	    end = end.getNext();
 	}
 	size++;
 	return true;
@@ -192,6 +197,8 @@ public class MyLinkedList {
 	System.out.println(l);
 	System.out.print("Remove the 2nd element: " );
 	System.out.println(l.remove(2));
+	System.out.println(l);
+	l.add(20);
 	System.out.println(l);
     }
 
