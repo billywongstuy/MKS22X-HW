@@ -1,14 +1,14 @@
-public class MyLinkedList {
+public class MyLinkedList<T> {
 
     private class LNode {
-	int data;
+	T data;
 	LNode next;	
 	
 	public LNode() {}
 	public LNode(int v) {data = v;}
 
 	public LNode getNext() {return next;}
-	public int getValue() {return data;}
+	public T getValue() {return data;}
 	public void setValue(int value) {data = value;}
 	public void setNext(LNode l) {next = l;}
     }
@@ -21,7 +21,7 @@ public class MyLinkedList {
 	size = 0;
     }
 
-    public boolean add(int value) {
+    public boolean add(T value) {
 	if (size == 0) {
 	    start = new LNode(value);
 	    end = start;
@@ -40,7 +40,7 @@ public class MyLinkedList {
 	return true;
     }
 
-    public boolean add(int index, int value) {
+    public boolean add(int index, T value) {
 	if (index >= size) {
 	    add(value);
 	}
@@ -98,7 +98,7 @@ public class MyLinkedList {
     }
 
 
-    public int set(int index, int newValue) {
+    public int set(int index, T newValue) {
 	if (index >= size) {
 	    throw new IndexOutOfBoundsException();
 	}
@@ -147,7 +147,7 @@ public class MyLinkedList {
 	return removed;
     }
 
-    public int indexOf(int value) {
+    public int indexOf(T value) {
 	LNode current = start;
 	for (int i = 0; i < size; i++) {
 	    if (current.getValue() == value) {
