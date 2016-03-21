@@ -5,7 +5,7 @@ public class MyLinkedList<T> {
 	LNode next;	
 	
 	public LNode() {}
-	public LNode(int v) {data = v;}
+	public LNode(T v) {data = v;}
 
 	public LNode getNext() {return next;}
 	public T getValue() {return data;}
