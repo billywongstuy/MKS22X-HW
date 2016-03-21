@@ -9,7 +9,7 @@ public class MyLinkedList<T> {
 
 	public LNode getNext() {return next;}
 	public T getValue() {return data;}
-	public void setValue(int value) {data = value;}
+	public void setValue(T value) {data = value;}
 	public void setNext(LNode l) {next = l;}
     }
 
@@ -57,8 +57,8 @@ public class MyLinkedList<T> {
 	return true;
     }
 
-
-    public boolean oldAdd(int index, int value) {
+    /*
+    public boolean oldAdd(int index, T value) {
 	if (index >= size) {
 	    add(value);
 	}
@@ -76,8 +76,9 @@ public class MyLinkedList<T> {
 	}
 	return true;
     }
+    */
     
-    public int get(int index) {
+    public T get(int index) {
 	if (index >= size) {
 	    throw new IndexOutOfBoundsException();
 	}
@@ -90,7 +91,7 @@ public class MyLinkedList<T> {
 		current = current.getNext();
 	    }
 	}
-	return -1*Integer.MAX_VALUE;
+	return null;
     }
 
     public int size() {
@@ -98,7 +99,7 @@ public class MyLinkedList<T> {
     }
 
 
-    public int set(int index, T newValue) {
+    public T set(int index, T newValue) {
 	if (index >= size) {
 	    throw new IndexOutOfBoundsException();
 	}
@@ -106,13 +107,12 @@ public class MyLinkedList<T> {
 	for (int i = 0; i < index; i++) {
 	    current = current.getNext();
 	}
-	int oldValue = current.getValue();
+	T oldValue = current.getValue();
 	current.setValue(newValue);
 	return oldValue;
     }
     
-    //
-    public int remove(int index) {
+    public T remove(int index) {
 	if (index >= size) {
 	    throw new IndexOutOfBoundsException();
 	}
@@ -121,13 +121,13 @@ public class MyLinkedList<T> {
 	for (h = 0; h < index-1; h++) {
 	    current = current.getNext();
 	}
-	int removed = get(index);
+	T removed = get(index);
 	current.setNext(current.getNext().getNext());
 	size--;
 	return removed;
     }
 
-
+    /*
        public int oldRemove(int index) {
 	if (index >= size) {
 	    throw new IndexOutOfBoundsException();
@@ -146,11 +146,12 @@ public class MyLinkedList<T> {
 	size--;
 	return removed;
     }
+    */
 
     public int indexOf(T value) {
 	LNode current = start;
 	for (int i = 0; i < size; i++) {
-	    if (current.getValue() == value) {
+	    if (current.getValue().equals(value)) {
 		return i;
 	    }
 	    else {
@@ -178,13 +179,10 @@ public class MyLinkedList<T> {
 	return s;
     }
 
-    public static void main(String [] args) {
-	MyLinkedList l = new MyLinkedList();
-	System.out.println(l);
+    public static void main(String [] args) {	
+        MyLinkedList<Integer>l = new MyLinkedList<Integer>();
 	l.add(4);
-	System.out.println(l);
         l.add(8);
-	System.out.println(l);
 	l.add(9);
 	l.add(7);
 	l.add(12);
@@ -195,11 +193,15 @@ public class MyLinkedList<T> {
 	System.out.println(l);
 	l.add(3,23);
 	System.out.println(l);
-	System.out.print("Remove the 2nd element: " );
 	System.out.println(l.remove(2));
 	System.out.println(l);
 	l.add(20);
 	System.out.println(l);
+	MyLinkedList<String> z = new MyLinkedList<String>();
+	z.add(new String("a"));
+	z.add(new String("b"));
+	z.add(new String("c"));
+	System.out.println(z);
     }
 
 }
