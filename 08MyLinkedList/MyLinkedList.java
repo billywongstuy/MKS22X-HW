@@ -22,17 +22,12 @@ public class MyLinkedList<T> {
     }
 
     public boolean add(T value) {
+
 	if (size == 0) {
 	    start = new LNode(value);
 	    end = start;
 	}
 	else {
-	    /*LNode current = start;
-	    while (current.getNext() != null) {
-		current = current.getNext();
-	    }
-	    current.setNext(new LNode(value));
-	    */
 	    end.setNext(new LNode(value));
 	    end = end.getNext();
 	}
@@ -41,8 +36,15 @@ public class MyLinkedList<T> {
     }
 
     public boolean add(int index, T value) {
+	
 	if (index > size || index < 0) {
 	    throw new IndexOutOfBoundsException();
+	}
+	else if (index == 0) {
+	    LNode current = start;
+	    start = new LNode(value);
+	    start.setNext(current);
+	    size++;
 	}
 	else if (index == size) {
 	    add(value);
@@ -98,17 +100,29 @@ public class MyLinkedList<T> {
 	if (index >= size || index < 0 ) {
 	    throw new IndexOutOfBoundsException();
 	}
-	LNode current = start;
-	int h;
-	for (h = 0; h < index-1; h++) {
-	    current = current.getNext();
+	else if (index == 0) {
+	    T removed = start.getValue();
+	    start = start.getNext();
+	    size--;
+	    return removed;
 	}
-	System.out.println(h);
-	
-	T removed = current.getNext().getValue();
-	current.setNext(current.getNext().getNext());
-	size--;
-	return removed;
+	else {
+	    
+	    LNode current = start;
+	    int h;
+	    T removed = current.getValue();
+	    for (h = 0; h < index-1; h++) {
+		current = current.getNext();
+	    }
+	    if (index == size-1) {
+		end = current;
+	    }
+	    removed = current.getNext().getValue();
+
+	    current.setNext(current.getNext().getNext());
+	    size--;
+	    return removed;
+	}
     }
 
     public int indexOf(T value) {
@@ -127,16 +141,14 @@ public class MyLinkedList<T> {
     public String toString() {
 	String s = "[";
 	LNode current = start;
-	int n = 0;
-	while (n < size) {
-	    if (n == size-1) {
+	while (current != null) {
+	    if (current.getNext() == null) {
 		s += current.getValue();
 	    }
 	    else {
 		s += (current.getValue()+",");
 	    }
 	    current = current.getNext();
-	    n++;
 	}
 	s += "]";
 	return s;
@@ -165,14 +177,15 @@ public class MyLinkedList<T> {
 	System.out.println(l);
 	//System.out.println(l.indexOf(9));
 	System.out.println("element at 3 is: " + l.get(3));
-	System.out.println(l.set(2,99));
-	System.out.println(l);
+	//System.out.println(l.set(2,99));
+	l.set(2,99);
+	//System.out.println(l);
 	l.add(3,23);
 	System.out.println(l);
-	System.out.println(l.remove(2));
+	System.out.println("Removed: " + l.remove(4));
 	System.out.println(l);
-	l.add(20);
-	System.out.println(l);
+	//l.add(20);
+	//System.out.println(l);
 	MyLinkedList<String> z = new MyLinkedList<String>();
 	z.add(new String("a"));
 	z.add(new String("b"));

@@ -14,26 +14,26 @@ public class Driver{
             m.add(-1,"oops");
             System.out.println("\n\nAdd -1 #####################################");
         }catch(IndexOutOfBoundsException e){
-	    System.out.println("OoB: Cannot add at -1");
+
         }
         try{
             m.add(12,"oops");
             System.out.println("\n\n add 12 #####################################");
         }catch(IndexOutOfBoundsException e){
-	    System.out.println("OoB: Cannot add at 12");
+
         }
         try{
             m.remove(12);
             System.out.println("\n\n remove 12 #####################################");
         }catch(IndexOutOfBoundsException e){
-	    System.out.println("OoB: Cannot remove at 12");
+
         }
 
         try{
             m.set(12,"Fwazzat?!?");
             System.out.println("\n\n set 12 #####################################");
         }catch(IndexOutOfBoundsException e){
-	    System.out.println("OoB: Cannot set at 12");
+
         }
 
 
@@ -72,6 +72,8 @@ public class Driver{
         System.out.println(m.toString(true));
         System.out.println(n);
 
+	System.out.println("--------------------------------");
+	
         //test remove random items:
         Random rand = new Random(0);
         for(int i = 0; i < 6000; i++){
@@ -86,9 +88,6 @@ public class Driver{
                 m.add(x,""+i);
             }else{
                 int x = rand.nextInt(n.size());
-		System.out.println(x);
-		System.out.println(n.size());
-		System.out.println(m.size());
                 if(!n.remove(x).equals(m.remove(x))){
                     System.out.println("Non matching elements removed\n");
                     System.exit(1);
