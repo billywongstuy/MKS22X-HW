@@ -1,4 +1,6 @@
-public class MyLinkedList<T> {
+import java.util.*;
+
+public class MyLinkedList<T> implements Iterable<T> {
 
     private class LNode {
 	T data;
@@ -13,9 +15,38 @@ public class MyLinkedList<T> {
 	public void setNext(LNode l) {next = l;}
     }
 
-    LNode start;
-    int size;
-    LNode end;
+
+    public Iterator<T>iterator() {
+	return new LLIterator();
+    }
+
+    public class LLIterator implements Iterator<T> {
+	private LNode current;
+
+	public LLIterator() {
+	    current = start;
+	    System.out.println("Start value: " + current.getValue());
+	}
+	
+	public boolean hasNext() {
+	    return current.getNext() != null;
+	}
+
+	public T next() {
+	    T tmp = current.getValue();
+	    System.out.println("Thing: " + tmp);
+	    current = current.getNext();
+	    return current.getValue();
+	}
+
+	public void remove() {
+	    //current = current.getNext();
+	}
+    }
+
+    private LNode start;
+    private int size;
+    private LNode end;
 
     public MyLinkedList() {
 	size = 0;
@@ -184,13 +215,19 @@ public class MyLinkedList<T> {
 	System.out.println(l);
 	System.out.println("Removed: " + l.remove(4));
 	System.out.println(l);
+	int j = 0;
+	for (Integer i:l) {
+	    System.out.println("Loop: " + j);
+	    j++;
+	    System.out.println(i);
+	}
 	//l.add(20);
 	//System.out.println(l);
 	MyLinkedList<String> z = new MyLinkedList<String>();
-	z.add(new String("a"));
-	z.add(new String("b"));
-	z.add(new String("c"));
-	System.out.println(z);
+	z.add("a");
+	z.add("b");
+	z.add("c");
+	//System.out.println(z);
     }
 
 }
