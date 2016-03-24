@@ -34,6 +34,9 @@ public class MyLinkedList<T> implements Iterable<T> {
 	}
 
 	public T next() {
+	    if (!hasNext()) {
+		throw new NoSuchElementException();
+	    }
 	    if (current == null) {
 		current = start;
 	    }
