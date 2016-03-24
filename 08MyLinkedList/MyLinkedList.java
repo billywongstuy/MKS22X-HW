@@ -24,18 +24,22 @@ public class MyLinkedList<T> implements Iterable<T> {
 	private LNode current;
 
 	public LLIterator() {
-	    current = start;
-	    System.out.println("Start value: " + current.getValue());
 	}
 	
 	public boolean hasNext() {
+	    if (current == null) {
+		return true;
+	    }
 	    return current.getNext() != null;
 	}
 
 	public T next() {
-	    T tmp = current.getValue();
-	    System.out.println("Thing: " + tmp);
-	    current = current.getNext();
+	    if (current == null) {
+		current = start;
+	    }
+	    else {
+		current = current.getNext();		
+	    }
 	    return current.getValue();
 	}
 
@@ -214,15 +218,12 @@ public class MyLinkedList<T> implements Iterable<T> {
 	l.add(3,23);
 	System.out.println(l);
 	System.out.println("Removed: " + l.remove(4));
+	l.add(20);
 	System.out.println(l);
 	int j = 0;
 	for (Integer i:l) {
-	    System.out.println("Loop: " + j);
-	    j++;
 	    System.out.println(i);
 	}
-	//l.add(20);
-	//System.out.println(l);
 	MyLinkedList<String> z = new MyLinkedList<String>();
 	z.add("a");
 	z.add("b");
