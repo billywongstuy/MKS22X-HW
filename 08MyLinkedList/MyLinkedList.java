@@ -44,7 +44,7 @@ public class MyLinkedList<T> implements Iterable<T> {
 	}
 
 	public void remove() {
-	    //current = current.getNext();
+	    throw new UnsupportedOperationException();
 	}
     }
 
