@@ -1,0 +1,23 @@
+public class ParenDemo {
+    
+    public static boolean isMatching(String s) {
+	
+    }
+
+    public String oppositeBracket(String s) {
+	if (s.equals("(")) {
+	    return ")";
+	}
+	if (s.equals("[")) {
+	    return "]";
+	}
+	if (s.equals("{")) {
+	    return "}";
+	}
+	if (s.equals("<")) {
+	    return ">";
+	}
+	return "";
+    }
+
+}

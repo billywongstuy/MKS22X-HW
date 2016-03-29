@@ -5,11 +5,10 @@ public class MyQueue<T> {
      * Adds the given item to the rear of the queue.
      */
 
-    private MyLinkedList<T> queue = new MyLinkedList<T>();
-    private int size;
+    private MyLinkedList<T> queue;
     
     public MyQueue() {
-	size = 0;
+	queue = new MyLinkedList<T>();
     }
 
     /**
@@ -17,7 +16,6 @@ public class MyQueue<T> {
      */
     void enqueue(T item) {
 	queue.add(item);
-	size++;
     }
 
     /**
@@ -30,7 +28,6 @@ public class MyQueue<T> {
 	}
 	T tmp = queue.get(0);
 	queue.remove(0);
-	size--;
 	return tmp;
     }
 
@@ -49,13 +46,13 @@ public class MyQueue<T> {
      * Returns the number of items currently in the queue.
      */
     int size() {
-	return size;
+	return queue.size;
     }
 
     /**
      * Returns whether the queue is empty or not.
      */
     boolean isEmpty() {
-	return size == 0;
+	return size() == 0;
     }
 }

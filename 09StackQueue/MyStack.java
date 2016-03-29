@@ -3,12 +3,11 @@ import java.util.*;
 public class MyStack<T> {
 
     
-    private MyLinkedList<T> queue = new MyLinkedList<T>();
-    private int size;
+    private MyLinkedList<T> queue;
 
 
     public MyStack() {
-	size = 0;
+        queue = new MyLinkedList<T>();
     }
     
     /**
@@ -16,7 +15,6 @@ public class MyStack<T> {
      */
     void push(T item) {
 	queue.add(0,item);
-	size++;
     }
 
     /**
@@ -29,7 +27,6 @@ public class MyStack<T> {
 	}
 	T tmp = queue.get(0);
 	queue.remove(0);
-	size--;
 	return tmp;
     }
 
@@ -48,13 +45,13 @@ public class MyStack<T> {
      * Returns the number of items currently in the stack.
      */
     int size() {
-	return size;
+	return queue.size;
     }
 
     /**
      * Returns whether the stack is empty or not.
      */
     boolean isEmpty() {
-	return size == 0;
+	return size() == 0;
     }
 }
