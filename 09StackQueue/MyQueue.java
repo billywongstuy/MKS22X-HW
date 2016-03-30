@@ -57,30 +57,37 @@ public class MyQueue<T> {
     }
 
 
-    public class TQueue<T> implements Queue<T> {
-
-    }
 
     public static void main(String[]args) {
 	Random rand = new Random();
-	TQueue<Integer>stack = new TQueue<>();
-	MyQueue<Integer>mystack = new MyQueue<>();
+        Queue<Integer> queue = new LinkedList<Integer>();
+	MyQueue<Integer>myqueue= new MyQueue<>();
 	int sizey = rand.nextInt(20);
 	for (int i = 0; i < sizey; i++) {
 	    int r = rand.nextInt(100);
-	    stack.queue(r);
-	    mystack.queue(r);
+	    myqueue.enqueue(r);
+	    queue.add(r);
 	}
-        for (int i = 0; i < stack.size(); i++) {
-	    System.out.print(stack.dequeue()+" ");
-	    i--;
+
+		for (int i = 0; i < 4000; i++) {
+	    int t = rand.nextInt(2);
+	    if (queue.size() == 0) {
+		queue.add(i);
+		myqueue.enqueue(i);
+	    }
+	    else if (t == 0) {
+		int s = queue.remove();
+		int m = myqueue.dequeue();
+		if (s != m) {
+		    System.out.println("Non-matching elements removed " + s + " " + m);
+		    System.exit(i);
+		}
+	    }
+	    else if (t == 1) {
+		queue.add(i);
+		myqueue.enqueue(i);
+	    }
 	}
-	System.out.println();
-	for (int i = 0; i < mystack.size(); i++) {
-	    System.out.print(mystack.dequeue()+" ");
-	    i--;
-	}
-	System.out.println();
     }
 
 

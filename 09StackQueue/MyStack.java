@@ -69,16 +69,29 @@ public class MyStack<T> {
 	    stack.push(r);
 	    mystack.push(r);
 	}
-        for (int i = 0; i < stack.size(); i++) {
-	    System.out.print(stack.pop()+" ");
-	    i--;
+
+	for (int i = 0; i < 4000; i++) {
+	    int t = rand.nextInt(2);
+	    if (stack.size() == 0) {
+		stack.push(i);
+		mystack.push(i);
+	    }
+	    else if (t == 0) {
+		int s = stack.pop();
+		int m = mystack.pop();
+		if (s != m) {
+		    System.out.println("Non-matching elements removed " + s + " " + m);
+		    System.exit(i);
+		}
+	    }
+	    else if (t == 1) {
+		stack.push(i);
+		mystack.push(i);
+	    }
 	}
-	System.out.println();
-	for (int i = 0; i < mystack.size(); i++) {
-	    System.out.print(mystack.pop()+" ");
-	    i--;
-	}
-	System.out.println();
+	
+	
+	
     }
 
 }
