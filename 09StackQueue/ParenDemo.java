@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class ParenDemo {
     
     public static boolean isMatching(String s) {
@@ -7,13 +9,18 @@ public class ParenDemo {
 		parens.push(s.substring(i,i+1));
 	    }
 	   if (s.substring(i,i+1).equals(")") || s.substring(i,i+1).equals("]") || s.substring(i,i+1).equals("}") || s.substring(i,i+1).equals(">")) {
-	       if (s.substring(i,i+1).equals(oppositeBracket(parens.peek()))) {
-		    parens.pop();
-		}
-	       else {return false;}
+	       try {
+		   String tmp = parens.pop();
+		   if (!oppositeBracket(tmp).equals(s.substring(i,i+1))) {
+		       return false;
+		   }
+	       }
+	       catch (NoSuchElementException e)  {
+		   return false;
+	       }
 	    }
 	}
-	return true;
+	return parens.isEmpty();
     }
 
     public static String oppositeBracket(String s) {
