@@ -54,4 +54,31 @@ public class MyStack<T> {
     boolean isEmpty() {
 	return size() == 0;
     }
+
+    public String toString() {
+	return queue.toString();
+    }
+
+    public static void main(String[]args) {
+	Random rand = new Random();
+	Stack<Integer>stack = new Stack<>();
+	MyStack<Integer>mystack = new MyStack<>();
+	int sizey = rand.nextInt(20);
+	for (int i = 0; i < sizey; i++) {
+	    int r = rand.nextInt(100);
+	    stack.push(r);
+	    mystack.push(r);
+	}
+        for (int i = 0; i < stack.size(); i++) {
+	    System.out.print(stack.pop()+" ");
+	    i--;
+	}
+	System.out.println();
+	for (int i = 0; i < mystack.size(); i++) {
+	    System.out.print(mystack.pop()+" ");
+	    i--;
+	}
+	System.out.println();
+    }
+
 }

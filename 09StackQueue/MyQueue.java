@@ -55,4 +55,33 @@ public class MyQueue<T> {
     boolean isEmpty() {
 	return size() == 0;
     }
+
+
+    public class TQueue<T> implements Queue<T> {
+
+    }
+
+    public static void main(String[]args) {
+	Random rand = new Random();
+	TQueue<Integer>stack = new TQueue<>();
+	MyQueue<Integer>mystack = new MyQueue<>();
+	int sizey = rand.nextInt(20);
+	for (int i = 0; i < sizey; i++) {
+	    int r = rand.nextInt(100);
+	    stack.queue(r);
+	    mystack.queue(r);
+	}
+        for (int i = 0; i < stack.size(); i++) {
+	    System.out.print(stack.dequeue()+" ");
+	    i--;
+	}
+	System.out.println();
+	for (int i = 0; i < mystack.size(); i++) {
+	    System.out.print(mystack.dequeue()+" ");
+	    i--;
+	}
+	System.out.println();
+    }
+
+
 }
