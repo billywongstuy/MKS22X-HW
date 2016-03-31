@@ -63,9 +63,18 @@ public class Driver{
         n.add(0,"START");
         m.add(m.size(),"PENULTIMATE");
         n.add(n.size(),"PENULTIMATE");
-        System.out.println(m.toString(true));
-        System.out.println(n);
 
+	System.out.println(m);
+	
+	System.out.println("arghab");
+	
+        System.out.println(m.toString(true));
+
+	System.out.println("argh");
+	
+        System.out.println(n);
+	
+	
         //test add
         m.add("Z-END!");
         n.add("Z-END!");
