@@ -64,57 +64,71 @@ public class MyDeque<T> {
 	if (data.size == 0) {
 	    data[0] = value;
 	}
-	else Pif (end == data.size-1) {
-		end = 0;
+        else {
+	    if (end == data.size-1) {
+		data = 0;
 	    }
-	else {
-	    end++;
+	    else {
+		end++;
+	    }
+	    data[end] = value;
+	    filled++;
 	}
-	data[end] = value;
-	filled++;
     }
-}
-//-When the array is full, re-size, then add. 
-//-No exceptions are required since you will re-size.
+    //-When the array is full, re-size, then add. 
+    //-No exceptions are required since you will re-size.
 
-//3. 
-T removeFirst()  {
-    data[start] = null;
-    filled--;
-    if (start = data.size-1) {
-	start = 0;
+    //3. 
+    T removeFirst()  {
+	data[start] = null;
+	filled--;
+	if (start = data.size-1) {
+	    start = 0;
+	}
+	else {
+	    start++;
+	}
     }
-    else {
-	start++;
-    }
-}
-//4. 
-T removeLast() {
-    data[end] = null;
-    filled--;
-    if (end == 0) {
-	end = data.size-1;
-    }
-    else {
-	end--;
-    }
-} 
-//-NoSuchElementException is thrown when there are no elements. 
+    //4. 
+    T removeLast() {
+	data[end] = null;
+	filled--;
+	if (end == 0) {
+	    end = data.size-1;
+	}
+	else {
+	    end--;
+	}
+    } 
+    //-NoSuchElementException is thrown when there are no elements. 
 
-//5. 
-T getFirst() {}
-//6. 
-T getLast() {}
-//-NoSuchElementException is thrown when there are no elements. 
+    //5. 
+    T getFirst() {}
+    //6. 
+    T getLast() {}
+    //-NoSuchElementException is thrown when there are no elements. 
 
-public boolean isFull() {
-    return filled = data.size;
-}
+    public boolean isFull() {
+	return filled = data.size;
+    }
 
-public static void main(String[]args) {
-    MyDeque<Integer> d = new MyDeque<>();
+    public String toString() {
+	int arrayPlace = start;
+	for (int i = 0; i < filled; i++) {
+	    System.out.println(data[arrayPlace]+",");
+	    if (arrayPlace == data.size-1) {
+		arrayPlace = 0;
+	    }
+	    else {
+		arrayPlace++;
+	    }
+	}
+    }
+
+    public static void main(String[]args) {
+	MyDeque<Integer> d = new MyDeque<>();
 	
 	
-}
+    }
 
 }
