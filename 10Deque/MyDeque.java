@@ -80,6 +80,9 @@ public class MyDeque<T> {
 
     //3. 
     T removeFirst()  {
+	if (filled = 0) {
+	    throw new NoSuchElementException();
+	}
 	data[start] = null;
 	filled--;
 	if (start = data.size-1) {
@@ -91,6 +94,9 @@ public class MyDeque<T> {
     }
     //4. 
     T removeLast() {
+	if (filled = 0) {
+	    throw new NoSuchElementException();
+	}
 	data[end] = null;
 	filled--;
 	if (end == 0) {
@@ -103,9 +109,19 @@ public class MyDeque<T> {
     //-NoSuchElementException is thrown when there are no elements. 
 
     //5. 
-    T getFirst() {}
+    T getFirst() {
+	if (filled = 0) {
+	    throw new NoSuchElementException();
+	}
+	return data[start];
+    }
     //6. 
-    T getLast() {}
+    T getLast() {
+	if (filled = 0) {
+	    throw new NoSuchElementException();
+	}
+	return data[last];
+    }
     //-NoSuchElementException is thrown when there are no elements. 
 
     public boolean isFull() {
