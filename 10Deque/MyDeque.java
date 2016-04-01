@@ -41,7 +41,7 @@ public class MyDeque<T> {
 	if (isFull()) {
 	    resize();
 	}
-	if (data.length == 0) {
+	if (filled == 0) {	    
 	    data[0] = value;
 	}
 	else {
@@ -52,8 +52,8 @@ public class MyDeque<T> {
 		start--;
 	    }
 	    data[start] = value;
-	    filled++;
 	}
+	filled++;
     }
 
     //2. 
@@ -61,7 +61,7 @@ public class MyDeque<T> {
 	if (isFull()) {
 	    resize();
 	}
-	if (data.length == 0) {
+	if (filled == 0) {
 	    data[0] = value;
 	}
         else {
@@ -72,8 +72,8 @@ public class MyDeque<T> {
 		end++;
 	    }
 	    data[end] = value;
-	    filled++;
 	}
+	filled++;
     }
     //-When the array is full, re-length, then add. 
     //-No exceptions are required since you will re-size.
@@ -136,6 +136,7 @@ public class MyDeque<T> {
 	int arrayPlace = start;
 	String s = "";
 	for (int i = 0; i < filled; i++) {
+	    System.out.print(data[arrayPlace] + "(" + arrayPlace + ") ");
 	    if (i == filled-1) {
 		s += data[arrayPlace];
 	    }
@@ -149,13 +150,30 @@ public class MyDeque<T> {
 		arrayPlace++;
 	    }
 	}
+	System.out.println();
 	return s;
     }
 
     public static void main(String[]args) {
 	MyDeque<Integer> d = new MyDeque<>();
-	d.addFirst(3);
-	d.addFirst(4);
+	d.addFirst(3);  //3
+	d.addFirst(4);  //4,3
+	System.out.println(d.getFirst());
+	d.addLast(1);   //4,3,1
+	System.out.println(d.getLast());
+	d.addLast(6);  //4,3,1,6
+	System.out.println(d.getLast());
+	d.addFirst(9);  //9,4,3,1,6
+	d.addLast(54);  //9,4,3,1,6,54
+	d.addLast(5);  //9,4,3,1,6,54,5
+	d.addLast(10);  //9,4,3,1,6,54,5,10
+	d.addLast(44);  //9,4,3,1,6,54,5,10,44
+	d.addLast(34);  //9,4,3,1,6,54,5,10,44,34
+	d.addFirst(90);  //90,9,4,3,1,6,54,5,10,44,34
+	d.removeLast();  //90,9,4,3,1,6,54,5,10,44
+	d.removeFirst();  //9,4,3,1,6,54,5,10,44
+	
+	//d.addLast(58);  //9,4,3,1,6,54,5,10,44,34,58
 	System.out.println(d);
 	
     }
