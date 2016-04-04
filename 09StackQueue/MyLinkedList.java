@@ -158,6 +158,7 @@ public class MyLinkedList<T> implements Iterable<T> {
 	else if (index == size-1) {
 	    T removed = end.getValue();
 	    end = end.getPrevious();
+	    end.setNext(null);
 	    size--;
 	    return removed;
 	}
