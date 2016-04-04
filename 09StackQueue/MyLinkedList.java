@@ -82,7 +82,7 @@ public class MyLinkedList<T> implements Iterable<T> {
 	if (index > size || index < 0) {
 	    throw new IndexOutOfBoundsException();
 	}
-	else if (index == 0) {
+	else if (index == 0 && size != 0) {
 	    LNode tmp = start;
 	    start = new LNode(value);
 	    tmp.setPrevious(start);
@@ -222,5 +222,10 @@ public class MyLinkedList<T> implements Iterable<T> {
 	return "";
     }
 
+
+    public static void main(String [] args) {
+	MyLinkedList<String>l = new MyLinkedList<>();
+	l.add(0,"asd");
+    }
 
 }
