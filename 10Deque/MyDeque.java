@@ -114,14 +114,9 @@ public class MyDeque<T> {
 
     //5. 
     T getFirst() {
-	System.out.println(filled);
-	System.out.println(this);
 	if (filled == 0) {
 	    throw new NoSuchElementException();
 	}
-	System.out.println("yes");
-	System.out.println("-------------------");
-
 	return data[start];
     }
     //6. 
