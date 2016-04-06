@@ -114,9 +114,14 @@ public class MyDeque<T> {
 
     //5. 
     T getFirst() {
+	System.out.println(filled);
+	System.out.println(this);
 	if (filled == 0) {
 	    throw new NoSuchElementException();
 	}
+	System.out.println("yes");
+	System.out.println("-------------------");
+
 	return data[start];
     }
     //6. 
@@ -136,7 +141,7 @@ public class MyDeque<T> {
 	int arrayPlace = start;
 	String s = "";
 	for (int i = 0; i < filled; i++) {
-	    System.out.print(data[arrayPlace] + "(" + arrayPlace + ") ");
+	    //System.out.print(data[arrayPlace] + "(" + arrayPlace + ") ");
 	    if (i == filled-1) {
 		s += data[arrayPlace];
 	    }
@@ -152,6 +157,10 @@ public class MyDeque<T> {
 	}
 	System.out.println();
 	return s;
+    }
+
+    public int size() {
+	return filled;
     }
 
     public static void main(String[]args) {
