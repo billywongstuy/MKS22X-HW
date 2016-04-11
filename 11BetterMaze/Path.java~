@@ -1,0 +1,6 @@
+public class Path {
+    
+    int x,y;
+    
+
+}
