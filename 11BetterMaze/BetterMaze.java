@@ -88,7 +88,7 @@ public class BetterMaze{
 	maze[startRow][startCol] = '@';
 	
 	//for everything in there
-        while (placesToGo.next() != null) {
+        while (placesToGo.hasNext()) {
 
 	    if (animate) {
 		clearTerminal();
