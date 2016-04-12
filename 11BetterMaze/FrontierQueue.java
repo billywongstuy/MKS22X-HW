@@ -16,7 +16,12 @@ public class FrontierQueue<T> implements Frontier<T>{
     }
 
     public T next() {
-	return queue.peek();
+        if (hasNext()) {
+	    return queue.peek();
+	}
+	else {
+	    return null;
+	}
     }
 
     public boolean hasNext() {
@@ -29,4 +34,9 @@ public class FrontierQueue<T> implements Frontier<T>{
 	}
     }
 
+
+    public T remove() {
+	return queue.remove();
+    }
+    
 }

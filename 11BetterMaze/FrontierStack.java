@@ -16,7 +16,12 @@ public class FrontierStack<T> implements Frontier<T>{
     }
 
     public T next() {
-	return stack.peek();
+	if (hasNext()) {
+	    return stack.peek();
+	}
+	else {
+	    return null;
+	}
     }
 
     public boolean hasNext() {
@@ -27,6 +32,10 @@ public class FrontierStack<T> implements Frontier<T>{
 	catch (NoSuchElementException e) {
 	    return false;
 	}
+    }
+
+    public T remove() {
+	return stack.pop();
     }
 
 }

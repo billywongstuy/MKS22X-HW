@@ -1,0 +1,7 @@
+public class Driver {
+    public static void main(String[]args) {
+	BetterMaze m = new BetterMaze("data1.dat");
+	System.out.println(solveBFS());
+	
+    }
+}
