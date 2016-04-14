@@ -17,7 +17,7 @@ public class FrontierQueue<T> implements Frontier<T>{
 
     public T next() {
         if (hasNext()) {
-	    return queue.peek();
+	    return queue.remove();
 	}
 	else {
 	    return null;
@@ -25,13 +25,10 @@ public class FrontierQueue<T> implements Frontier<T>{
     }
 
     public boolean hasNext() {
-        try {
-	    queue.peek();
-	    return true;
-	}
-	catch (NoSuchElementException e) {
+	if (queue.isEmpty()) {
 	    return false;
 	}
+	return true;
     }
 
 

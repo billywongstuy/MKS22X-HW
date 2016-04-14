@@ -16,7 +16,7 @@ public class BetterMaze{
 	    else {
 		chain = 1;
 	    }
-	    System.out.println("chain: " + chain);
+	    //System.out.println("chain: " + chain);
 	}
 
 
@@ -100,10 +100,8 @@ public class BetterMaze{
 	    int x = current.getLocation().getX();
 	    int y = current.getLocation().getY();
 
-	    placesToGo.remove();
-
-	    System.out.println("X:" + x + ", Y:" + y);
-	    System.out.println(maze[x][y]);
+	    //System.out.println("X:" + x + ", Y:" + y);
+	    //System.out.println(maze[x][y]);
 	    //System.out.println(maze[5][1]);
 	    
 	    if (maze[x][y] == 'E') {
