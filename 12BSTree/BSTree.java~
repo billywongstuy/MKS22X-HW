@@ -1,0 +1,13 @@
+public class BSTree implements Comparable<BSTree> {
+    
+
+    public int compareTo(BSTree n) {
+	
+    }
+
+    private class Node {
+
+    }
+    
+
+}
