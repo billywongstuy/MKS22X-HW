@@ -16,17 +16,23 @@ public class FrontierStack<T> implements Frontier<T>{
     }
 
     public T next() {
-	return stack.peek();
+	if (hasNext()) {
+	    return stack.pop();
+	}
+	else {
+	    return null;
+	}
     }
 
     public boolean hasNext() {
-        try {
-	    stack.peek();
-	    return true;
-	}
-	catch (NoSuchElementException e) {
+        if (stack.isEmpty()) {
 	    return false;
 	}
+	return true;
+    }
+
+    public T remove() {
+	return stack.pop();
     }
 
 }

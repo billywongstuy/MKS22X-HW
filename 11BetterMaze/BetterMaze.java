@@ -5,13 +5,25 @@ public class BetterMaze{
     private class Node{
 	private Coordinate location;
 	private Node previous;
+	private int chain;
 
 	public Node(Coordinate l, Node p) {
 	    location = l;
 	    previous = p;
+	    if (p != null) {
+		chain = 1+previous.getChain();
+	    }
+	    else {
+		chain = 1;
+	    }
+	    //System.out.println("chain: " + chain);
 	}
 
-    
+
+	public int getChain() {
+	    return chain;
+	}
+	
 	public Node getPrevious() {
 	    return previous;
 	}
@@ -19,6 +31,11 @@ public class BetterMaze{
 	public Coordinate getValue() {
 	    return location;
 	}
+
+	public Coordinate getLocation() {
+	    return getValue();
+	}
+	
     }
 
     private char[][] maze;
@@ -36,8 +53,8 @@ public class BetterMaze{
      *Postcondition:  the correct solution is in the returned array
      **/
     public int[] solutionCoordinates(){
-        /** IMPLEMENT THIS **/      
-	return new int[1];
+        /** IMPLEMENT THIS **/
+        return solution;
     }    
 
 
@@ -62,14 +79,83 @@ public class BetterMaze{
        Keep going until you find a solution or run out of elements on the frontier.
     **/
     private boolean solve(){  
-        /** IMPLEMENT THIS **/  
+        /** IMPLEMENT THIS **/
+
+	//System.out.println(startRow + " " + startCol);
+	
 	placesToGo.add(new Node(new Coordinate(startRow,startCol),null));
-        //loop
+
+	maze[startRow][startCol] = '@';
+	
+	//for everything in there
+        while (placesToGo.hasNext()) {
+
+	    if (animate) {
+		clearTerminal();
+		System.out.println(this);
+		wait(100);
+	    }
+	    
+	    Node current = placesToGo.next();
+	    int x = current.getLocation().getX();
+	    int y = current.getLocation().getY();
+
+	    //System.out.println("X:" + x + ", Y:" + y);
+	    //System.out.println(maze[x][y]);
+	    //System.out.println(maze[5][1]);
+	    
+	    if (maze[x][y] == 'E') {
+		//something about the length to the array
+		//also need to set the previous ones to stars
+		solution = new int[current.getChain()*2];
+		for (int i = solution.length-1; i >= 3; i = i-2) {
+		    solution[i] = y;
+		    solution[i-1] = x;
+		    maze[x][y] = '@';
+		    current = current.getPrevious();
+		    x = current.getLocation().getX();
+		    y = current.getLocation().getY();
+		}
+		solution[0] = startRow;
+		solution[1] = startCol;
+		return true;
+	    }
+
+
+	    //if it's E then don't set it
+	    if (x > 0 && (maze[x-1][y] == ' ' || maze[x-1][y] == 'E')) {
+		placesToGo.add(new Node(new Coordinate(x-1,y),current));
+		if (maze[x-1][y] != 'E') {
+		    maze[x-1][y] = '.';
+		}
+	    }
+	    if (x < maze.length && (maze[x+1][y] == ' '  || maze[x+1][y] == 'E')) {
+		placesToGo.add(new Node(new Coordinate(x+1,y),current));
+		if (maze[x+1][y] != 'E') {
+		    maze[x+1][y] = '.';
+		}
+	    }
+	    if (y > 0 && (maze[x][y-1] == ' '  || maze[x][y-1] == 'E')) {
+		placesToGo.add(new Node(new Coordinate(x,y-1),current));
+		if (maze[x][y-1] != 'E') {
+		    maze[x][y-1] = '.';
+		}
+	    }
+	    if (y < maze[0].length && (maze[x][y+1] == ' '  || maze[x][y+1] == 'E')) {
+		placesToGo.add(new Node(new Coordinate(x,y+1),current));
+		if (maze[x][y+1] != 'E') {
+		    maze[x][y+1] = '.';
+		}
+	    }
+
+	    
+
+	}
 	return false;
     }    
      
     /**mutator for the animate variable  **/
-    public void setAnimate(boolean b){  /** IMPLEMENT THIS **/ }    
+    public void setAnimate(boolean b){  /** IMPLEMENT THIS **/ animate = b;}    
 
 
     public BetterMaze(String filename){
@@ -166,11 +252,7 @@ public class BetterMaze{
 	    return ans + color(37,40) + "\n";
 	}
     } 
-    
-
-
-       
-    
-    
+   
+             
 
 }
