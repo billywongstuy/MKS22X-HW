@@ -1,6 +1,20 @@
 public class BSTree<T extends Comparable<T>> {   
     
+    boolean DEBUG = true;
+
+    private void debug(String s) {
+	if (DEBUG) {
+	    System.out.println(s);
+	}
+    }
     
+    private int greaterOf(int a, int b) {
+	if (a > b) {
+	    return a;
+	}
+	return b;
+    }
+
     public BSTree() {
 	root = new Node();
     }
@@ -31,14 +45,27 @@ public class BSTree<T extends Comparable<T>> {
 
 	//real methods here
 	public int height(){ 
-	    return 0;
+	    return height(0);
 	}
+
+	public int height(int n) {
+	    if (left != null && right != null) {
+		return greaterOf(left.height(n+1),right.height(n+1));
+	    }
+	    else if (right != null) {
+		return right.height(n+1);
+	    }
+	    else if (left != null) {
+		return left.height(n+1);
+	    }
+	    else {
+		return n+1;
+	    }
+	}
+
 	public void add(T value){
-	    System.out.println("adding");
 	    if (data == null) {
-		System.out.println("adding2");
 		data = value;
-		System.out.println(data);
 	    }
 	    else if (value.compareTo(data) < 0) {
 		if (left == null) {
@@ -61,30 +88,28 @@ public class BSTree<T extends Comparable<T>> {
 	}
 
 
-	public String stringHelper(Node n) {
-	    System.out.println("start: " + data);
-	    if (n.hasChildren()) {
-		if (left != null && right != null) {
-		    System.out.println("both of " + data);
-		    return ""+data +" "+ stringHelper(left) + " " +  stringHelper(right);
-		}
-		else if (left != null) {
-		    System.out.println("only left of " + data);
-		    return ""+data+" "+stringHelper(left) + "_";
-		}
-		else {
-		    System.out.println("only right of " + data);
-		    System.out.println(right.getValue());
-		    return ""+data+" _ " + stringHelper(right);
-		}
+	public String toString(){
+	     if (left != null && right != null) {
+		debug("both of " + data);
+		return ""+data +" "+ left.toString() + " " +  right.toString();
 	    }
-	    System.out.println("here: " + data);
-	    return ""+ data + " _ _";
+	    else if (left != null) {
+		debug("only left of " + data);
+		debug(""+left.getValue());
+		return ""+data+" "+left.toString() + "_ ";
+	    }
+	    else if (right != null) {
+		debug("only right of " + data);
+		debug(""+right.getValue());
+		return ""+data+" _ " + right.toString();
+	    }
+	    else {
+		debug("no children at " + data);
+		return ""+ data + " _ _ ";
+	    }
 	}
 
-	public String toString(){
-	    return stringHelper(this);
-	}
+
 	public boolean contains(T value){
 	    return false;
 	}
@@ -96,6 +121,8 @@ public class BSTree<T extends Comparable<T>> {
     //remove when have 2 children replace node with largest of left or smallest of right (pick the taller child)
     //have the remove method for tree and node
 
+
+    //IMPORTANT CHANGE TO PRIVATE
     private Node root;
 
     //OUTER methods here are wrapper methods for the root
@@ -131,8 +158,14 @@ public class BSTree<T extends Comparable<T>> {
     public static void main(String[]args) {
 	BSTree<Integer> b = new BSTree<>();
 	b.add(4);
-	b.add(9);
+	b.add(3);
+	b.add(10);
+	b.add(2);
+	b.add(5);
+	b.add(11);
+	b.add(12);
 	System.out.println(b);
+	System.out.println(b.getHeight());
     }
 
 }
