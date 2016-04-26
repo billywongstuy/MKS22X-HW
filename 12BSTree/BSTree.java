@@ -90,30 +90,132 @@ public class BSTree<T extends Comparable<T>> {
 
 	public String toString(){
 	     if (left != null && right != null) {
-		debug("both of " + data);
 		return ""+data +" "+ left.toString() + " " +  right.toString();
 	    }
 	    else if (left != null) {
-		debug("only left of " + data);
-		debug(""+left.getValue());
 		return ""+data+" "+left.toString() + "_ ";
 	    }
 	    else if (right != null) {
-		debug("only right of " + data);
-		debug(""+right.getValue());
 		return ""+data+" _ " + right.toString();
 	    }
 	    else {
-		debug("no children at " + data);
 		return ""+ data + " _ _ ";
 	    }
 	}
 
 
 	public boolean contains(T value){
+	    if (data.compareTo(value) == 0) {
+		return true;
+	    }
+	    else if (left != null && right != null) {
+		return left.contains(value) || right.contains(value);
+	    }
+	    else if (left != null) {
+		return left.contains(value);
+	    }
+	    else if (right != null) {
+		return right.contains(value);
+	    }
 	    return false;
 	}
-     
+
+
+
+
+	public Node findLeftLargest() {
+	    //find the ultimate greatest of the left node
+	    Node start = left;
+	    while (start.right != null) {
+		start = start.right;
+	    }
+	    return start;
+	}
+
+	/*
+	public T remove(T value) {
+	    //if two children
+	    if (left != null && right != null) {
+		if (value.compareTo(data) == 0) {
+		    T dat = remove(findLeftLargest().getValue());
+		    value = dat;
+		    return value;
+		}
+		else if (value.compareTo(data) < 0) {
+		    return left.remove(value);
+		}
+		return right.remove(value);
+	    }
+	    //one child
+	    else if (left != null) {
+		if (value.compareTo(data) == 0) {
+		    data = left.getValue();
+		    left = null;
+		    return value;
+		}
+		T t =  right.remove(value);
+		if (right.getValue() == null) {
+		    right = null;
+		}
+		return t;
+	    }
+	    else if (right != null) {		
+		if (value.compareTo(data) == 0) {
+		    data = right.getValue();
+		    right = null;
+		    return value;
+		}
+		return right.remove(value);
+	    }
+	    //no children
+	    else {
+		if (value.compareTo(data) == 0) {
+		    data = null;
+		    return value;
+		}
+		return null;
+	    }
+	}
+	*/
+
+
+	private void shift(Node n, Node o) {
+	    n = o;
+	}
+
+	public T remove(T value) {
+	    if (value.compareTo(data) == 0) {
+		if (left != null && right != null) {
+		    data = remove(findLeftLargest().getValue());
+		}
+		else if (left != null) {
+		    shift(this,this.left);
+		}
+		else if (right != null) {
+		    shift(this,this.right);
+		}
+		else {
+		    data = null;
+		}
+		return value;
+	    }
+	    else if (value.compareTo(data) < 0) {
+		T dat = left.remove(value);
+		if (left.getValue() == null) {
+		    left = null;
+		}
+		return dat;
+	    }
+	    else {
+		T dat = right.remove(value);
+		if (right.getValue() == null) {
+		    right = null;
+		}
+		return dat;
+	    }
+	}
+	
+	
     }
 
 
@@ -121,6 +223,8 @@ public class BSTree<T extends Comparable<T>> {
     //remove when have 2 children replace node with largest of left or smallest of right (pick the taller child)
     //have the remove method for tree and node
 
+
+    
 
     //IMPORTANT CHANGE TO PRIVATE
     private Node root;
@@ -151,7 +255,15 @@ public class BSTree<T extends Comparable<T>> {
 	if (root.getValue() == null) {
 	    return false;
 	}
-	return false;
+	return root.contains(value);
+    }
+
+    
+    public T remove(T value) {
+	if (root.getValue() == null) {
+	    return null;
+	}	
+	return root.remove(value);
     }
 
 
@@ -164,8 +276,16 @@ public class BSTree<T extends Comparable<T>> {
 	b.add(5);
 	b.add(11);
 	b.add(12);
+	b.add(6);
+	b.add(7);
 	System.out.println(b);
-	System.out.println(b.getHeight());
+	System.out.println("Height: " + b.getHeight());
+	System.out.println(b.contains(5));
+	System.out.println(b.contains(88));
+	b.remove(10);
+	System.out.println(b);
+	b.add(13);
+	System.out.println(b);
     }
 
 }
