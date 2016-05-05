@@ -1,27 +1,36 @@
 import java.util.*;
 
+@SuppressWarnings("unchecked")
 public class MyHeap<T extends Comparable<T>> {
 
     private T [] data;
     private boolean isMax;
     private int size = 0;
-
-    @SuppressWarnings("unchecked")
+   
     public MyHeap() {
-	data = (T[])new Object[2];
+	data = (T[])new Comparable[2];
 	isMax = true;
     }
 
-    @SuppressWarnings("unchecked")
+
+    public MyHeap(T [] array) {
+	data = array;
+	heapify();
+	isMax = true;
+    }
+    
     public MyHeap(boolean m) {
-	data = (T[])new Object[2];
+	data = (T[])new Comparable[2];
 	isMax = m;
     }
 
 
-    @SuppressWarnings("unchecked")
-    private void resize() {
-	T[]temp = (T[])new Object[data.length*2];
+    private void heapify() {
+	
+    }
+
+    private void doubleSize() {
+	T[]temp = (T[])new Comparable[data.length*2];
 	for (int i = 1; i <= size; i++) {
 	    temp[i] = data[i];
 	}
@@ -32,7 +41,7 @@ public class MyHeap<T extends Comparable<T>> {
 
     public void add(T value) {
 	if (size+1 >= data.length) {
-	    resize();
+	    doubleSize();
 	}
 	data[size+1] = value;
 	size++;
@@ -46,10 +55,19 @@ public class MyHeap<T extends Comparable<T>> {
     }
 
 
-    public T remove(T value) {
+    public T delete(T value) {
 	T store = data[1];
         data[1] = data[findSmallestIndex()];
 	int p = 1;
+	while (p <= size/2 && (compare(data[p].compareTo(data[p*2])) || compare(data[p].compareTo(data[p*2])))) {
+	    pushDown(p);
+	    if (compare(data[p*2+1].compareTo(data[p*2]))) {
+		p = p*2;
+	    }
+	    else {
+		p = p*2+1;
+	    }
+	}
 	//while: data[p] doesn't belong compared to children && it has children
 	//if left is greater do pushdownleft
 	//then p = p*2
@@ -83,17 +101,17 @@ public class MyHeap<T extends Comparable<T>> {
 	data[i] = store;
     }
 
-
-    private void pushdownLeft(int i) {
-	T store = data[i*2];
-	data[i*2] = data[i];
-	data[i] = store;
-    }
-
-    private void pushDownRight(int i) {
-	T store = data[i*2+1];
-	data[i*2+1] = data[i];
-	data[i] = store;
+    private void pushDown(int i) {
+	T store = data[i];
+	if (compare(data[i*2+1].compareTo(data[i*2]))) {
+	    data[i] = data[i*2];
+	    data[i*2] = store;
+	}
+	else {
+	    data[i] = data[i*2+1];
+	    data[i*2+1] = store;
+	    
+	}
     }
 
     public T peek() {
@@ -125,5 +143,6 @@ public class MyHeap<T extends Comparable<T>> {
 	MyHeap<Integer> a = new MyHeap<>();
 	a.add(56);
 	System.out.println(a);
+	System.out.println(a.compare(new Integer(1).compareTo(new Integer(2))));
     }
 }
