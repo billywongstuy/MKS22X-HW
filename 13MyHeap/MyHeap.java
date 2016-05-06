@@ -15,6 +15,7 @@ public class MyHeap<T extends Comparable<T>> {
 
     public MyHeap(T [] array) {
 	data = array;
+	size = array.length;
 	heapify();
 	isMax = true;
     }
@@ -23,10 +24,20 @@ public class MyHeap<T extends Comparable<T>> {
 	data = (T[])new Comparable[2];
 	isMax = m;
     }
-
-
+    
     private void heapify() {
-	
+	T [] temp = (T[])new Comparable[data.length*2+1];
+	int start = size/2-1;	
+	for (int i = start; i > 1; i--) {
+	    //System.out.println(i);
+	    if (compare(data[i].compareTo(data[i/2]))) {
+		pushDown(i);
+	    }
+	}
+	for (int i = 0; i < data.length; i++) {
+	    temp[i+1] = data[size-i-1];
+	}
+	data = temp;
     }
 
     private void doubleSize() {
@@ -46,8 +57,8 @@ public class MyHeap<T extends Comparable<T>> {
 	data[size+1] = value;
 	size++;
 	int p = size;
-	while (p > 1 && compare(data[p].compareTo(data[p/2]))) {
-	    pushup(p);
+	while (p > 1 && compare(data[p/2].compareTo(data[p]))) {
+	    pushUp(p);
 	    p = p/2;
 	}
  	//while p is supposed to be above parent && it has parent
@@ -55,9 +66,11 @@ public class MyHeap<T extends Comparable<T>> {
     }
 
 
-    public T delete(T value) {
+    
+    public T delete() {
 	T store = data[1];
-        data[1] = data[findSmallestIndex()];
+        int index = findSmallestIndex();
+	data[1] = data[index];
 	int p = 1;
 	while (p <= size/2 && (compare(data[p].compareTo(data[p*2])) || compare(data[p].compareTo(data[p*2])))) {
 	    pushDown(p);
@@ -73,7 +86,10 @@ public class MyHeap<T extends Comparable<T>> {
 	//then p = p*2
 	//if right is greater do pushdownleft
 	//then p = p*2+1
-	
+	for (int i = index+1; i <= size; i++) {
+	    data[i-1] = data[i];
+	}
+	size--;
 	return store;
     }
 
@@ -87,7 +103,7 @@ public class MyHeap<T extends Comparable<T>> {
 
     private int findSmallestIndex() {
         int min = 1;
-	for (int i = 0; i <= size; i++) {
+	for (int i = 1; i <= size; i++) {
 	    if (compare(data[i].compareTo(data[min]))) {
 		min = i;
 	    }
@@ -95,7 +111,7 @@ public class MyHeap<T extends Comparable<T>> {
 	return min;
     }
 
-    private void pushup(int i) {
+    private void pushUp(int i) {
 	T store = data[i/2];
 	data[i/2] = data[i];
 	data[i] = store;
@@ -103,7 +119,8 @@ public class MyHeap<T extends Comparable<T>> {
 
     private void pushDown(int i) {
 	T store = data[i];
-	if (compare(data[i*2+1].compareTo(data[i*2]))) {
+	//System.out.println(size);
+	if (size >= i*2+1 && compare(data[i*2+1].compareTo(data[i*2]))) {
 	    data[i] = data[i*2];
 	    data[i*2] = store;
 	}
@@ -143,6 +160,17 @@ public class MyHeap<T extends Comparable<T>> {
 	MyHeap<Integer> a = new MyHeap<>();
 	a.add(56);
 	System.out.println(a);
-	System.out.println(a.compare(new Integer(1).compareTo(new Integer(2))));
+	a.add(40);
+	a.add(35);
+	a.add(87);
+	a.add(7);
+	a.add(27);
+	a.add(18);
+	System.out.println(a);
+	a.delete();
+	System.out.println(a);
+	Integer [] r = {7,18,27,35,40,56,87};
+	MyHeap<Integer> b = new MyHeap<>(r);
+	System.out.println(b);
     }
 }
