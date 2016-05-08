@@ -16,8 +16,8 @@ public class MyHeap<T extends Comparable<T>> {
     public MyHeap(T [] array) {
 	data = array;
 	size = array.length;
-	heapify();
 	isMax = true;
+	heapify();	
     }
     
     public MyHeap(boolean isMax) {
@@ -28,22 +28,33 @@ public class MyHeap<T extends Comparable<T>> {
 
     public MyHeap(T[] array, boolean isMax) {
 	data = array;
+	size = array.length;
 	this.isMax = isMax;
-    } 
+	heapify();
+    }
+
+
+    //compare
+    //if isMax returns if first is less than second
     
     private void heapify() {
 	T [] temp = (T[])new Comparable[data.length*2+1];
-	int start = size/2-1;	
-	for (int i = start; i > 1; i--) {
-	    //System.out.println(i);
-	    if (compare(data[i].compareTo(data[i/2]))) {
+	int start = size/2;
+	for (int i = 0; i < data.length; i++) {
+	    temp[i+1] = data[i];
+	}
+	data = temp;
+	for (int i = start; i >= 1; i--) {
+	    if (compare(data[i].compareTo(data[i*2])) || compare(data[i].compareTo(data[i*2+1]))) {
 		pushDown(i);
 	    }
 	}
-	for (int i = 0; i < data.length; i++) {
-	    temp[i+1] = data[size-i-1];
+	for (int i = size; i > 1; i--) {
+	    if (compare(data[i/2].compareTo(data[i]))) {
+		pushUp(i);
+	    }
 	}
-	data = temp;
+	
     }
 
     private void doubleSize() {
@@ -176,7 +187,8 @@ public class MyHeap<T extends Comparable<T>> {
 	System.out.println(a);
 	a.delete();
 	System.out.println(a);
-	Integer [] r = {7,18,27,35,40,56,87};
+	//Integer [] r = {7,18,27,35,40,56,87};
+	Integer [] r= {10,15,9,2000,2,6,7,5000,60,3,15,100,20,3,1};
 	MyHeap<Integer> b = new MyHeap<>(r);
 	System.out.println(b);
     }
