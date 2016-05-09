@@ -49,11 +49,11 @@ public class MyHeap<T extends Comparable<T>> {
 		pushDown(i);
 	    }
 	}
-	for (int i = size; i > 1; i--) {
-	    if (compare(data[i/2].compareTo(data[i]))) {
-		pushUp(i);
-	    }
-	}
+	//for (int i = size; i > 1; i--) {
+	//   if (compare(data[i/2].compareTo(data[i]))) {
+	//	pushUp(i);
+	//    }
+	//}
 	
     }
 
@@ -74,35 +74,20 @@ public class MyHeap<T extends Comparable<T>> {
 	data[size+1] = x;
 	size++;
 	int p = size;
-	while (p > 1 && compare(data[p/2].compareTo(data[p]))) {
-	    pushUp(p);
-	    p = p/2;
-	}
- 	//while p is supposed to be above parent && it has parent
-	//pushup
+	pushUp(p);
     }
 
 
     
     public T delete() {
+	if (size == 0) {
+	    throw new NoSuchElementException();
+	}
 	T store = data[1];
 	int index = size;
 	data[1] = data[index];
 	int p = 1;
-	while (p <= size/2 && (compare(data[p].compareTo(data[p*2])) || compare(data[p].compareTo(data[p*2+1])))) {
-	    pushDown(p);
-	    if (compare(data[p*2+1].compareTo(data[p*2]))) {
-		p = p*2;
-	    }
-	    else {
-		p = p*2+1;
-	    }
-	}
-	//while: data[p] doesn't belong compared to children && it has children
-	//if left is greater do pushdownleft
-	//then p = p*2
-	//if right is greater do pushdownleft
-	//then p = p*2+1
+	pushDown(p);
 	for (int i = index+1; i <= size; i++) {
 	    data[i-1] = data[i];
 	}
@@ -118,37 +103,37 @@ public class MyHeap<T extends Comparable<T>> {
 	return n > 0;
     }
 
-    private int findSmallestIndex() {
-        int min = 1;
-	for (int i = 1; i <= size; i++) {
-	    if (compare(data[i].compareTo(data[min]))) {
-		min = i;
-	    }
-	}
-	return min;
-    }
 
     private void pushUp(int k) {
-	T store = data[k/2];
-	data[k/2] = data[k];
-	data[k] = store;
+	while (k > 1 && compare(data[k/2].compareTo(data[k]))) {
+	    T store = data[k/2];
+	    data[k/2] = data[k];
+	    data[k] = store;
+	    k = k/2;
+	}
     }
 
     private void pushDown(int k) {
 	T store = data[k];
-	//System.out.println(size);
-	if (size >= k*2+1 && compare(data[k*2+1].compareTo(data[k*2]))) {
-	    data[k] = data[k*2];
-	    data[k*2] = store;
+        while (k <= size/2 && (compare(data[k].compareTo(data[k*2])) || compare(data[k].compareTo(data[k*2+1])))) {
+	    if (size >= k*2+1 && compare(data[k*2+1].compareTo(data[k*2]))) {
+		data[k] = data[k*2];
+		data[k*2] = store;
+		k = k*2;
+	    }
+	    else {
+		data[k] = data[k*2+1];
+		data[k*2+1] = store;
+		k = k*2+1;
+	    }
 	}
-	else {
-	    data[k] = data[k*2+1];
-	    data[k*2+1] = store;
-	    
-	}
+    
     }
 
     public T peek() {
+	if (size == 0) {
+	    throw new NoSuchElementException();
+	}
 	return data[1];
     }
     
