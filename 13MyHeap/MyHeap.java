@@ -15,7 +15,7 @@ public class MyHeap<T extends Comparable<T>> {
 
     public MyHeap(T [] array) {
 	data = array;
-	size = array.length;
+	size = array.length-1;
 	isMax = true;
 	heapify();	
     }
@@ -28,7 +28,7 @@ public class MyHeap<T extends Comparable<T>> {
 
     public MyHeap(T[] array, boolean isMax) {
 	data = array;
-	size = array.length;
+	size = array.length-1;
 	this.isMax = isMax;
 	heapify();
     }
@@ -40,11 +40,12 @@ public class MyHeap<T extends Comparable<T>> {
     private void heapify() {
 	T [] temp = (T[])new Comparable[data.length*2+1];
 	int start = size/2;
-	for (int i = 0; i < data.length; i++) {
-	    temp[i+1] = data[i];
-	}
+	for (int i = 1; i < data.length; i++) {
+	    temp[i] = data[i];
+	}	
 	data = temp;
 	for (int i = start; i >= 1; i--) {
+	    System.out.println(data[i]);
 	    if (compare(data[i].compareTo(data[i*2])) || compare(data[i].compareTo(data[i*2+1]))) {
 		pushDown(i);
 	    }
@@ -173,7 +174,7 @@ public class MyHeap<T extends Comparable<T>> {
 	a.delete();
 	System.out.println(a);
 	//Integer [] r = {7,18,27,35,40,56,87};
-	Integer [] r= {10,15,9,2000,2,6,7,5000,60,3,15,100,20,3,1};
+	Integer [] r= {null,10,15,9,2000,2,6,7,5000,60,3,15,100,20,3,1};
 	MyHeap<Integer> b = new MyHeap<>(r);
 	System.out.println(b);
     }
