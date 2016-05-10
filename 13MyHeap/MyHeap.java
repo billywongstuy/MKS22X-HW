@@ -45,7 +45,6 @@ public class MyHeap<T extends Comparable<T>> {
 	}	
 	data = temp;
 	for (int i = start; i >= 1; i--) {
-	    System.out.println(data[i]);
 	    if (compare(data[i].compareTo(data[i*2])) || compare(data[i].compareTo(data[i*2+1]))) {
 		pushDown(i);
 	    }
