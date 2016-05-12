@@ -1,0 +1,9 @@
+public class Driver {
+
+    public static void main(String[]args) {
+	RunningMedian m = new RunningMedian();
+	m.add(1);
+	System.out.println(m.getMedian());
+    }
+    
+}

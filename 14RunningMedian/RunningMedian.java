@@ -15,7 +15,7 @@ public class RunningMedian {
 	if (min.size() == 0 && max.size() == 0) {
 	    throw new NoSuchElementException();
 	}
-	else if ((min.size()+max.size()%2 == 0)) {
+	else if ((min.size()+max.size())%2 == 0) {
 	    return (min.peek()+max.peek())/2;
 	}
 	else {
