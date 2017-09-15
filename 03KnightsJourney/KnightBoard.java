@@ -62,31 +62,7 @@ public class KnightBoard {
 		    return false;
 		}
 	    }
-	    
-	    /*if (solveH(row-2,col+1,num+1)) {
-	      return true;
-	      }
-	      else if (solveH(row+1,col+2,num+1)) {
-	      return true;
-	      }
-	      else if (solveH(row-1,col-2,num+1)) {
-	      return true;
-	      }
-	      else if (solveH(row+1,col-2,num+1)) {
-	      return true;
-	      }
-	      else if (solveH(row+2,col-1,num+1)) {
-	      return true;
-	      }
-	      else if (solveH(row+2,col+1,num+1)) {
-	      return true;
-	      }
-	      else if (solveH(row-2,col-1,num+1)) {
-	      return true;
-	      }
-	      else if (solveH(row-1,col+2,num+1)) {
-	      return true;
-	      }*/	
+	    	
 
 	    for (int i = 0; i < moves.length; i++) {
 		if (solveH(row+moves[i][0],col+moves[i][1],num+1)) {
