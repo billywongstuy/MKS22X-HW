@@ -88,6 +88,7 @@ public class MyHeap<T extends Comparable<T>> {
 	data[1] = data[index];
 	int p = 1;
 	pushDown(p);
+	//System.out.println("afb: " + Arrays.toString(data));
 	for (int i = index+1; i <= size; i++) {
 	    data[i-1] = data[i];
 	}
@@ -106,6 +107,7 @@ public class MyHeap<T extends Comparable<T>> {
 
     private void pushUp(int k) {
 	while (k > 1 && compare(data[k/2].compareTo(data[k]))) {
+	    //System.out.println("s: " + Arrays.toString(data));
 	    T store = data[k/2];
 	    data[k/2] = data[k];
 	    data[k] = store;
@@ -113,9 +115,32 @@ public class MyHeap<T extends Comparable<T>> {
 	}
     }
 
+    
+    //what if size = 6 and k = 3
     private void pushDown(int k) {
 	T store = data[k];
-        while (k <= size/2 && (compare(data[k].compareTo(data[k*2])) || compare(data[k].compareTo(data[k*2+1])))) {
+        while (k <= size/2 && (compare(data[k].compareTo(data[k*2])) || (k <= size/2-1 && compare(data[k].compareTo(data[k*2+1]))))) {
+	    //System.out.println("l: " + Arrays.toString(data));
+	    if (size >= k*2+1) {
+		if (compare(data[k*2].compareTo(data[k*2+1]))) {
+		    data[k] = data[k*2+1];
+		    data[k*2+1] = store;
+		    k = k*2+1;
+		}
+		else {
+		    data[k] = data[k*2];
+		    data[k*2] = store;
+		    k = k*2;
+		}
+	    }
+	    else {
+		data[k] = data[k*2];
+		data[k*2] = store;
+		k = k*2;
+	    }
+	    
+
+	    /*
 	    if (size >= k*2+1 && compare(data[k*2+1].compareTo(data[k*2]))) {
 		data[k] = data[k*2];
 		data[k*2] = store;
@@ -126,6 +151,7 @@ public class MyHeap<T extends Comparable<T>> {
 		data[k*2+1] = store;
 		k = k*2+1;
 	    }
+	    */
 	}
     
     }
@@ -159,22 +185,69 @@ public class MyHeap<T extends Comparable<T>> {
 
 
     public static void main(String[]args) {
-	//MyHeap<Integer> a = new MyHeap<>();
+      
 	MyHeap<Integer> a = new MyHeap<>(false);
-	a.add(56);
-	System.out.println(a);
-	a.add(40);
-	a.add(35);
-	a.add(87);
-	a.add(7);
-	a.add(27);
-	a.add(18);
-	System.out.println(a);
-	a.delete();
-	System.out.println(a);
-	//Integer [] r = {7,18,27,35,40,56,87};
-	Integer [] r= {null,10,15,9,2000,2,6,7,5000,60,3,15,100,20,3,1};
+	int [] a_vals = {56,40,35,87,7,27,18};
+	int ai = a_vals.length;
+	for (int i = 0; i < ai; i++) {
+	    a.add(a_vals[i]);
+	    System.out.println(a);
+	}
+
+	for (int i = 0; i < ai; i++) {
+	    a.delete();
+	    System.out.println(a);
+	}
+	
+
 	MyHeap<Integer> b = new MyHeap<>(r);
+	Integer [] r= {null,10,15,9,2000,2,6,7,5000,60,3,15,100,20,3,1};
 	System.out.println(b);
+	int s = b.size();
+	for (int i = 0; i < s; i++) {
+	    b.delete();
+	    System.out.println(b);
+	}
     }
 }
+
+
+/*
+smallest heap
+
+
+SWAP IF LOWER INDEX IS GREATER
+[null,null]
+[null,56]
+[null,56,40] (compare 1 and 2)--> [null,40,56]  
+[null,40,56,35] (compare 1 and 3)--> [null,35,56,40]
+[null,35,56,40,87] (compare 2 and 4)
+[null,35,56,40,87,7] (compare 2 and 5)--> [null,35,7,40,87,56] (compare 1 and 2) --> [null,7,35,40,87,56]
+[null,7,35,40,87,56,27] (compare 3 and 6)--> [null,7,35,27,87,56,40] (compare 1 and 3)
+[null,7,35,27,87,56,40,18] (compare 3 and 7)--> [null,7,35,18,87,56,40,27]
+
+
+//SWAP IF LOWER INDEX IS GREATER
+//delete loops until condition or k > size/2 (3)
+//k starts at 1 
+//if k*2+1 >= size, swap k and k*2
+//else swap k and k*2+1
+
+
+[40,80,120,160]
+[160,80,120,160]
+
+
+[80,120,160,160]
+
+
+
+[null,7,35,18,87,56,40,27] --> [null,27,35,18,87,56,40,27] 
+
+[null,27,35,18,87,56,40,27] (compare 1 and 2), (compare 1 and 3)--> [null,18,35,27,87,56,40,27] (compare 3 and 6)
+
+[null,18,35,27,87,56,40] 
+
+[null,40,35,27,87,56,40] (compare 1 and 2)--> [null,27,35,40,87,56,40] (compare 3 and 6)
+
+*/
